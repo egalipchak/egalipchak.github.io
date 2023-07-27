@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1ff8033.css",
-    "main.js": "/static/js/main.957c2dd3.js",
-    "static/media/gaze-the-ages.mp4": "/static/media/gaze-the-ages.f920fe704e5fa65b22aa.mp4",
-    "static/media/test-image-1.jpg": "/static/media/test-image-1.d297c4f0ed8b945b8939.jpg",
+    "main.css": "/static/css/main.09c8c844.css",
+    "main.js": "/static/js/main.3f27ad91.js",
+    "static/media/gaze-the-ages.mp4": "/static/media/gaze-the-ages.157d76112ed1ced7b1a1.mp4",
+    "static/media/WWKD7.jpg": "/static/media/WWKD7.2bbd1832e40d091296e7.jpg",
+    "static/media/WWKD4.jpg": "/static/media/WWKD4.e680ec47321d7ab6edf4.jpg",
+    "static/media/WWKD12.jpg": "/static/media/WWKD12.3d73e94de3654778b4b8.jpg",
+    "static/media/WWKDGoldfish1.jpg": "/static/media/WWKDGoldfish1.d6e7e1e1055836ce2e33.jpg",
+    "static/media/WWKD6.jpg": "/static/media/WWKD6.883cd97014691765105f.jpg",
+    "static/media/WWKD8.jpg": "/static/media/WWKD8.11e74325becb379d10d9.jpg",
+    "static/media/WWKD11.jpg": "/static/media/WWKD11.92e9fe940168236acfe9.jpg",
+    "static/media/WWKD9.jpg": "/static/media/WWKD9.26653fe3eee94c61732e.jpg",
     "index.html": "/index.html",
-    "main.c1ff8033.css.map": "/static/css/main.c1ff8033.css.map",
-    "main.957c2dd3.js.map": "/static/js/main.957c2dd3.js.map"
+    "main.09c8c844.css.map": "/static/css/main.09c8c844.css.map",
+    "main.3f27ad91.js.map": "/static/js/main.3f27ad91.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1ff8033.css",
-    "static/js/main.957c2dd3.js"
+    "static/css/main.09c8c844.css",
+    "static/js/main.3f27ad91.js"
   ]
 }
