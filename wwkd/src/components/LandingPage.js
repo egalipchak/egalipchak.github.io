@@ -1,13 +1,16 @@
 import React from 'react';
-import BackgroundVideo from '../assets/videos/gaze-the-ages.mp4';
 import './LandingPage.css';
 import MenuBar from './MenuBar';
+import BackgroundVideoMp4 from '../assets/videos/gaze-the-ages.mp4';
+import BackgroundVideoWebm from '../assets/videos/gaze-the-ages.webm';
+import BackgroundWallpaper from '../assets/images/gaze-the-ages.jpg';
 
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      <video autoPlay loop playsInLine muted>
-        <source src={BackgroundVideo} type="video/mp4" />
+      <video autoPlay loop muted playsInLine poster={BackgroundWallpaper}>
+        <source src={BackgroundVideoMp4} type="video/mp4" />
+        <source src={BackgroundVideoWebm} type="video/webm" />
       </video>
       <div className="bottom-bar">
         <p className="legal-text">

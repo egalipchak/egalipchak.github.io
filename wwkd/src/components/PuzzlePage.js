@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './PuzzlePage.css';
 import PuzzleModal from './PuzzleModal';
 import MenuBar from './MenuBar';
+import './CommonPage.css';
 
 const PuzzlePage = ({ images }) => {
   const [selectedPuzzle, setSelectedPuzzle] = useState(null);
