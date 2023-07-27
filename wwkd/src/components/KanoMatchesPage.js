@@ -3,7 +3,7 @@ import React from 'react';
 const KanoMatchesPage = () => {
   return (
     <div className="page">
-      <h2 className="tbd-text">TBD...</h2>
+      <h2 style={{ color: '#fff' }}>TBD... should list Kano match vods sorted by most recent</h2>
     </div>
   );
 };
