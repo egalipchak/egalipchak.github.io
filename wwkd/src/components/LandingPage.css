@@ -2,16 +2,17 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #535791;
+  background-color: #000000;
 }
 
 .landing-page {
-  width: 100%;
+  position: relative;
+  width: 100vw;
   min-height: 100vh;
 }
 
 .landing-page video {
-  position: fixed;
+  position: absolute;
   top: 40px;
   width: 100%;
   height: 100%;
