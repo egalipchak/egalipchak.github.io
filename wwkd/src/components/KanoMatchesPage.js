@@ -1,9 +1,14 @@
 import React from 'react';
+import MenuBar from './MenuBar';
+import './CommonPage.css';
 
 const KanoMatchesPage = () => {
   return (
-    <div className="page">
-      <h2 style={{ color: '#fff' }}>TBD... should list Kano match vods sorted by most recent</h2>
+    <div>
+      <MenuBar />
+      <div className="content">
+        <h2>TBD... should list Kano match vods sorted by most recent</h2>
+      </div>
     </div>
   );
 };

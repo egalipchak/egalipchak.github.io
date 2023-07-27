@@ -2,10 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import PuzzlePage from './components/PuzzlePage';
-
-// Import the new components
 import GuidesPage from './components/GuidesPage';
 import KanoMatchesPage from './components/KanoMatchesPage';
+import './common.css';
 
 const App = () => {
   const recentImages = [
@@ -28,16 +27,18 @@ const App = () => {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/recent" element={<PuzzlePage images={recentImages} />} />
-        <Route path="/easy" element={<PuzzlePage images={easyImages} />} />
-        <Route path="/medium" element={<PuzzlePage images={mediumImages} />} />
-        <Route path="/hard" element={<PuzzlePage images={hardImages} />} />
-        {/* Add the new routes */}
-        <Route path="/guides" element={<GuidesPage />} />
-        <Route path="/kanomatches" element={<KanoMatchesPage />} />
-      </Routes>
+      <div>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/recent" element={<PuzzlePage images={recentImages} />} />
+          <Route path="/easy" element={<PuzzlePage images={easyImages} />} />
+          <Route path="/medium" element={<PuzzlePage images={mediumImages} />} />
+          <Route path="/hard" element={<PuzzlePage images={hardImages} />} />
+          {/* Add the new routes */}
+          <Route path="/guides" element={<GuidesPage />} />
+          <Route path="/kanomatches" element={<KanoMatchesPage />} />
+        </Routes>
+      </div>
     </Router>
   );
 };

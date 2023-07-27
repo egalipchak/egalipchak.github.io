@@ -1,0 +1,10 @@
+.page {
+    /* Replace 'your-background-image-url' with the actual URL or path to your background image */
+    background-image: url('./assets/images/whispers-of-oracle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Add any other styles you want for the background, like background color or position */
+}
+ 
+  

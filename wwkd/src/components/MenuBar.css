@@ -1,0 +1,30 @@
+.menu-bar {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 0 20px; /* Add some horizontal padding to create space around the links */
+}
+
+.menu-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  /* Remove the margin to ensure even spacing between the links */
+  margin: 0;
+  /* Add transition for fading effect */
+  transition: color 0.3s ease;
+}
+
+/* Add the hover/focus styles for the links */
+.menu-link:hover,
+.menu-link:focus {
+  color: #6d6bed; /* Change the color to blue on hover/focus */
+}

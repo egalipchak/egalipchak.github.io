@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './PuzzlePage.css';
 import PuzzleModal from './PuzzleModal';
+import MenuBar from './MenuBar';
 
 const PuzzlePage = ({ images }) => {
   const [selectedPuzzle, setSelectedPuzzle] = useState(null);
@@ -24,6 +25,7 @@ const PuzzlePage = ({ images }) => {
         </div>
       ))}
       {selectedPuzzle && <PuzzleModal puzzle={selectedPuzzle} onClose={closeModal} />}
+      <MenuBar />
     </div>
   );
 };

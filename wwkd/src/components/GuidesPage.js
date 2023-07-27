@@ -1,9 +1,14 @@
 import React from 'react';
+import MenuBar from './MenuBar';
+import './CommonPage.css';
 
 const GuidesPage = () => {
   return (
-    <div className="page">
-      <h2 style={{ color: '#fff' }}>   TBD... should feature Kano guide to beginner and intermmediate players</h2>
+    <div>
+      <MenuBar />
+      <div className="content">
+        <h2>TBD... should feature Kano guide to beginner and intermediate players</h2>
+      </div>
     </div>
   );
 };
