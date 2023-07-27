@@ -4,6 +4,10 @@ import LandingPage from './components/LandingPage';
 import PuzzlePage from './components/PuzzlePage';
 import testImage from './assets/images/test-image-1.jpg';
 
+// Import the new components
+import GuidesPage from './components/GuidesPage';
+import KanoMatchesPage from './components/KanoMatchesPage';
+
 const App = () => {
   // Dummy image data, replace these with your actual image URLs and descriptions
   const recentImages = [
@@ -31,6 +35,9 @@ const App = () => {
         <Route path="/easy" element={<PuzzlePage images={easyImages} />} />
         <Route path="/medium" element={<PuzzlePage images={mediumImages} />} />
         <Route path="/hard" element={<PuzzlePage images={hardImages} />} />
+        {/* Add the new routes */}
+        <Route path="/guides" element={<GuidesPage />} />
+        <Route path="/kanomatches" element={<KanoMatchesPage />} />
       </Routes>
     </Router>
   );

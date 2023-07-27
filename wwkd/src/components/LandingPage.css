@@ -1,72 +1,135 @@
+/* LandingPage.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
 .landing-page {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-  }
-  
-  .landing-page video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    color: #fff;
-  }
-  
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.landing-page video {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 40px);
+  object-fit: cover;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.links {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+/* Separate class for the default color of the links */
+.menu-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem; /* Updated font size */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  /* Remove the border */
+  border: none;
+  /* Add transition for fading effect */
+  transition: color 0.3s ease;
+}
+
+/* Add the hover/focus styles for the links */
+.links .menu-link:hover,
+.links .menu-link:focus {
+  color: #6d6bed; /* Change the color to blue on hover/focus */
+}
+
+.bottom-bar {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  padding: 1rem;
+  transition: bottom 0.3s ease;
+}
+
+.legal-text {
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.puzzles-link {
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100%); /* Shift the dropdown down */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  padding: 10px; /* Add padding around the links inside the dropdown */
+  /* Remove rounded corners to make edges sharp */
+  border-radius: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 99;
+}
+
+.puzzles-link:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Reset the text decoration and keep the original font size */
+.dropdown-link {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff; /* Set default text color to white */
+  /* Add margin between the links */
+  margin: 5px 0;
+}
+
+/* Add the hover/focus styles for the links inside the dropdown */
+.dropdown-link:hover,
+.dropdown-link:focus {
+  color: #6d6bed; /* Change the color to blue on hover/focus */
+}
+
+/* Add a media query to adjust the layout on smaller screens */
+@media (max-width: 600px) {
   .links {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem 0;
-  }
-  
-  .links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
+    flex-wrap: wrap;
+    height: auto;
   }
 
-  .links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 1rem 0;
-  }
-  
   .links a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
     margin: 0.5rem;
-    /* Remove the border */
-    border: none;
   }
-  
-  /* Add a media query to adjust the layout on smaller screens */
-  @media (max-width: 600px) {
-    .links {
-      flex-wrap: wrap;
-    }
-  
-    .links a {
-      margin: 0.5rem 0.25rem; /* Reduce the margin between the links on smaller screens */
-    }
-  }
-  
-  
+}
