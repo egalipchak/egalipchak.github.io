@@ -8,7 +8,7 @@ import BackgroundWallpaper from '../assets/images/gaze-the-ages.jpg';
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      <video autoPlay loop muted playsInLine poster={BackgroundWallpaper}>
+      <video playsInline webkit-playsinline={true} autoPlay={true} loop muted poster={BackgroundWallpaper}>
         <source src={BackgroundVideoMp4} type="video/mp4" />
         <source src={BackgroundVideoWebm} type="video/webm" />
       </video>
