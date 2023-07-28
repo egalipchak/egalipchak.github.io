@@ -1,36 +1,42 @@
+/* PuzzlePage.css */
+body {
+  margin: 0;
+  background-color: #1d1d1d; /* Set the background color for the whole screen */
+}
+
 .puzzle-page {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-    padding-top: 70px; /* Add padding to push the content below the menu bar */
-  }
-  
-  .puzzle-tile {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Add a box around each puzzle tile */
-  .puzzle-box {
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden; /* Ensure images and descriptions stay within the box */
-  }
-  
-  .puzzle-box img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .description {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    padding: 0.3rem;
-    font-size: 0.8rem;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  padding-top: 70px; /* Add padding to push the content below the menu bar */
+}
+
+.puzzle-title {
+  color: #fff; /* Set the title color to white */
+  text-align: center; /* Center the title */
+  padding: 0.5rem; /* Add some padding to the title */
+  font-size: 0.85rem; /* Adjust the font size as needed */
+}
+
+.puzzle-box {
+  width: 200px;
+  height: 180px; /* Set a fixed height for the puzzle box */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden; /* Ensure images and descriptions stay within the box */
+}
+
+.puzzle-box img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

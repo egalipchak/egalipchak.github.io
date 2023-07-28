@@ -20,8 +20,8 @@ const PuzzlePage = ({ images }) => {
       {images.map((image, index) => (
         <div key={index} className="puzzle-tile" onClick={() => openModal(image)}>
           <div className="puzzle-box">
+            <div className="puzzle-title">{image.title}</div>
             <img src={image.src} alt={`Puzzle ${index + 1}`} />
-            <div className="description">{image.description}</div>
           </div>
         </div>
       ))}

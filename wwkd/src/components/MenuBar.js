@@ -35,7 +35,7 @@ const MenuBar = () => {
         Puzzles
         {showDropdown && (
           <div className="dropdown" onMouseEnter={handleDropdownMouseEnter} onMouseLeave={handleDropdownMouseLeave}>
-            <Link to="/recent" className="dropdown-link">Recent</Link>
+            {/*Link to="/recent" className="dropdown-link">Recent</Link>*/}
             <Link to="/easy" className="dropdown-link">Easy</Link>
             <Link to="/medium" className="dropdown-link">Medium</Link>
             <Link to="/hard" className="dropdown-link">Hard</Link>

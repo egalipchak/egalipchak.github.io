@@ -4,9 +4,9 @@ import './CommonPage.css';
 
 const GuidesPage = () => {
   return (
-    <div>
+    <div className="content">
       <MenuBar />
-      <div className="content">
+      <div>
         <h2>TBD... should feature Kano guide to beginner and intermediate players</h2>
       </div>
     </div>

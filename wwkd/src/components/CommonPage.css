@@ -1,5 +1,8 @@
 /* CommonPage.css */
 .content {
-  padding-top: 40px; /* Add padding to push the content below the menu bar */
+  padding-top: 40px;
+  width: 100vw;
+  height: 100vh;
   color: #fff;
+  background-color: #1d1d1d;
 }
