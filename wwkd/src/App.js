@@ -49,7 +49,7 @@ const App = () => {
       url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/um0j9w/what_would_kano_do_wwkd_goldfish_edition/',
     },
     {
-      src: require('./assets/images/hardPuzzles/WWKD11.jpg'),
+      src: require('./assets/images/mediumPuzzles/WWKD11.jpg'),
       title: 'Spectral death',
       description: `- Figure out how to end the game, as your opponent is attacking you on their turn.\n- Opponent has 2 Arcane Barrier using Crown of Reflection and one Nullrune piece. They are potentially holding two blues in hand.\nNote opponent has 4 spectral shields in play.\n- You have responded with Cindering Foresight from arsenal, and are free to arrange the three cards (right side) in any way you want.\n- Opponent will use AB as intelligently as possible. Life totals are displayed in the top left. Opponent has 11 life remaining.`,
       url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/tsmgzr/what_would_kano_do_wwkd_11/',
