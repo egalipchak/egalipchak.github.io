@@ -42,9 +42,9 @@ const MenuBar = () => {
           </div>
         )}
       </div>
-      {/* Add the new links */}
       <Link to="/guides" className="menu-link">Guides</Link>
-      <Link to="/kanomatches" className="menu-link">Kano Matches</Link>
+      <Link to="/about" className="menu-link">About</Link>
+      {/*<Link to="/kanomatches" className="menu-link">Kano Matches</Link>*/}
     </div>
   );
 };

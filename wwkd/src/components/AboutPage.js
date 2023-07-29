@@ -1,9 +1,9 @@
-// GuidesPage.js
+// AboutPage.js
 import React from 'react';
 import MenuBar from './MenuBar';
 import './CommonPage.css';
 
-const GuidesPage = () => {
+const AboutPage = () => {
   return (
     <div>
       <MenuBar />
@@ -39,4 +39,4 @@ const GuidesPage = () => {
   );
 };
 
-export default GuidesPage;
+export default AboutPage;

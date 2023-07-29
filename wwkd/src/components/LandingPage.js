@@ -4,6 +4,7 @@ import MenuBar from './MenuBar';
 import BackgroundVideoMp4 from '../assets/videos/gaze-the-ages.mp4';
 import BackgroundVideoWebm from '../assets/videos/gaze-the-ages.webm';
 import BackgroundWallpaper from '../assets/images/gaze-the-ages.jpg';
+import { FaEnvelope, FaDiscord, FaTwitter } from 'react-icons/fa';
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,17 @@ const LandingPage = () => {
         <source src={BackgroundVideoWebm} type="video/webm" />
       </video>
       <div className="bottom-bar">
+        <div className="social-icons">
+          <a href="mailto:voidbufferstudios@gmail.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope />
+          </a>
+          <a href="https://discordapp.com/users/193506197591031810" target="_blank" rel="noopener noreferrer">
+            <FaDiscord />
+          </a>
+          <a href="https://twitter.com/dropmaw" target="_blank" rel="noopener noreferrer">
+            <FaTwitter />
+          </a>
+        </div>
         <p className="legal-text">
           WhatWouldKanoDo has no affiliation with Legend Story Studios®. Flesh and Blood™ is a registered trademark owned by Legend Story Studios. All associated images related to Flesh and Blood™ are protected under copyright © Legend Story Studios. All rights reserved.
         </p>

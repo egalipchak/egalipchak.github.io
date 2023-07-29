@@ -1,7 +1,9 @@
 /* CommonPage.css */
 .content {
   padding-top: 40px;
-  width: 100vw;
+  width: 100%; /* Take full available width */
+  max-width: 800px; /* Set a maximum width for content */
+  margin: 0 auto; /* Center the content horizontally */
   height: 100vh;
   color: #fff;
   background-color: #1d1d1d;
