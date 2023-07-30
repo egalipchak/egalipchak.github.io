@@ -76,8 +76,45 @@ const App = () => {
   const guideData = [
     {
       id: 1,
-      title: 'Kano test guASDASDASDADA SDASDASDADA SDASDAD ASDDi de!',
-      content: 'This is the content of Guide 1.This is the content of Guide 1.This is this is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihis is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This ihe conteThis is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide nt of Guide 1.This is the This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.',
+      title: 'Kano test guide!',
+      content: (
+        <>
+          <p>This isontinue with more tontinue with more tontinue with more 
+            tontinue with more tontinue with more tontinue with more t the content of Guide 1.
+          </p>
+          <img
+            src={require('./assets/images/test-image-1.jpg')}
+            alt="Image description"
+            style={{ maxWidth: '100%', margin: '1rem 0' }}
+          />
+          <p>Continue wontinue witontinue with more tontinue with more tontinue with mor
+            e tontinue with more th more tontinue with more tontinue with more tontinue with
+             more tontinue with more tontinue with more tontinue with more tith more text...
+          </p>
+          <img
+            src={require('./assets/images/test-image-1.jpg')}
+            alt="Image description"
+            style={{ maxWidth: '100%', margin: '1rem 0' }}
+          />
+                    <img
+            src={require('./assets/images/test-image-1.jpg')}
+            alt="Image description"
+            style={{ maxWidth: '100%', margin: '1rem 0' }}
+          />
+          <p>This isontinue with more tontinue with more tontinue with more tontinuetinue with 
+            more tontinue with more tontitinue with more tontinue with more tontitinue with mor
+            e tontinue with more tontitinue with more tontinue with more tontititinue with more 
+            tontinue with more tontitinue with more tontinue with more tontitinue with more tont
+            inue with more tontitinue with more tontinue with more tontitinue with more tontinue
+             with more tontitinue with more tontinue with more tontinue with more tontinue with
+              more tontitinue with more tontinue with more tonti with more tontinue with more ton
+              tinue with more t the content of Guide 1.
+          </p>
+          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+            Google Homepage
+          </a>
+        </>
+      ),
       author: 'John Doe',
       date: 'July 25, 2023',
       twitter: 'https://twitter.com/johndoe',
@@ -86,13 +123,37 @@ const App = () => {
     },
     {
       id: 2,
-      title: 'Guide 2',
-      content: 'This is the content of Guide 2.',
-      author: 'Jane Smith',
-      date: 'July 26, 2023',
-      twitter: 'https://twitter.com/janesmith',
-      discord: 'https://discord.gg/janesmith',
-      email: 'janesmith@example.com',
+      title: 'Kano test guide! number 2',
+      content: (
+        <>
+          <p>This is the content of e content e content e content e content e content e content e con
+            tent e content e content e content e content e content e content e content e content e co
+            ntent e content e content e content e content e content e content e content e content e 
+            content e content e content e content e content e content e content Guide 1.</p>
+          <p>Continue content e content e content e content e content e content e content e content 
+            e content e content e content e content e content e content e content e content e content
+             e content e content e content e content e content e content e content e content e content
+              e content e content e content e content e content e content e content e content e content 
+              e content e content e content e content e content e content e content e content e content 
+              e content e content e content e content e content e content e content e content e content 
+              e content e content e content e content e content e content e content e content e content
+               e content e content e content e content e content e content e content e content e conten
+               t e content e content e content e content e content e content e content e content e cont
+               ent e content e content e content e content e content e content e content e cont
+               ent e content e content e content e content e content e content e content e content e content
+               e content e content e content e content e content e content e content e content
+                e content e content e content e content e content e content e content e content e cont
+                ent e content e content e content e content e content e with more textontinue with more t
+                ontinue with more tontinue with more tontinue with more tontinue with more tontinue with mo
+                re tontinue with more t...</p>
+          <p>Continue with more text...</p>
+        </>
+      ),
+      author: 'John Doe',
+      date: 'July 25, 2023',
+      twitter: 'https://twitter.com/johndoe',
+      discord: 'https://discord.gg/johndoe',
+      email: 'johndoe@example.com',
     },
     // Add more guides as needed
   ];

@@ -76,7 +76,7 @@ const GuidePage = ({ guideData }) => {
               <p className="guide-date">{guide.date}</p>
             </div>
             <div className="guide-body">
-              <p>{guide.content}</p>
+              {guide.content}
             </div>
           </div>
         </div>
