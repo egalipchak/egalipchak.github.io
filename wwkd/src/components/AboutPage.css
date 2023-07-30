@@ -1,0 +1,31 @@
+/* AboutPage.css */
+
+.content {
+  padding-top: 40px;
+  padding-left: 20px; /* Add left padding */
+  width: 90%; /* Take full available width */
+  max-width: 800px; /* Set a maximum width for content */
+  margin: 0 auto; /* Center the content horizontally and add space on both sides */
+  min-height: calc(100vh - 40px); /* Set the minimum height of content to be at least the full viewport height minus the height of the bottom bar */
+  color: #fff;
+  background-color: #1d1d1d;
+}
+
+/* Media Query for smaller screens (max-width: 600px) */
+@media screen and (max-width: 600px) {
+  .content {
+    padding-top: 80px; /* Increase padding to make space for the fixed top MenuBar */
+  }
+  
+  h1 {
+    font-size: 1.8rem; /* Decrease the font size for h1 headings */
+  }
+  
+  p {
+    font-size: 1rem; /* Decrease the font size for paragraphs */
+  }
+  
+  ul {
+    font-size: 1rem; /* Decrease the font size for the list items */
+  }
+}

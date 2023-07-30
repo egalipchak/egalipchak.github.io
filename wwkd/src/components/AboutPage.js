@@ -2,7 +2,7 @@
 import React from 'react';
 import MenuBar from './MenuBar';
 import BottomBar from './BottomBar';
-import './CommonPage.css';
+import './AboutPage.css';
 
 const AboutPage = () => {
     return (
