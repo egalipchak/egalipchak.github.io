@@ -22,6 +22,20 @@ const guideData = [
     author: 'John Doe',
     imageSrc: testImage,
   },
+  {
+    id: 3,
+    title: 'This is an exciting title!',
+    date: 'July 25, 2023',
+    author: 'John Doe',
+    imageSrc: testImage,
+  },
+  {
+    id: 4,
+    title: 'This is an exciting title!',
+    date: 'July 25, 2023',
+    author: 'John Doe',
+    imageSrc: testImage,
+  },
   // Add more guide data as needed
 ];
 
@@ -32,7 +46,7 @@ const GuideModal = ({ guide }) => {
       <div className="guide-info-container">
         <div className="guide-info">
           <h3>{guide.title}</h3>
-          <p>{guide.date} ○ {guide.author}</p>
+          <p>{guide.date} ⦿ {guide.author}</p>
         </div>
       </div>
     </Link>

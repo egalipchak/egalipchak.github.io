@@ -11,7 +11,7 @@
 }
 
 .guide-container {
-  margin-left: -20px; /* added this because i have no idea how the container is not centered */
+  margin-left: -20px; /* need this to center the content, not sure whats messing this up */
   max-width: 800px;
   width: 100%; /* Set the width to 100% to fill the screen horizontally */
   padding: 30px;
@@ -119,6 +119,15 @@
 @media screen and (max-width: 600px) {
   .guide-container {
     max-width: 90%; /* Set a smaller max-width for smaller screens */
-    margin: 20px auto; /* Center the guide-container horizontally on smaller screens */
+    margin-left: -9px; /* Center the guide-container horizontally on smaller screens */
+  }
+
+  /* Center the guide-header and guide-body text on smaller screens */
+  .guide-header {
+    text-align: left;
+  }
+
+  .guide-body {
+    text-align: left;
   }
 }

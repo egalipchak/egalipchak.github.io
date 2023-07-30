@@ -13,8 +13,8 @@
 
 /* Media Query for smaller screens (max-width: 600px) */
 @media screen and (max-width: 600px) {
-  .content {
-    padding-top: 80px; /* Increase padding to make space for the fixed top MenuBar */
+  .content h1 {
+    text-align: center;
   }
   
   h1 {
