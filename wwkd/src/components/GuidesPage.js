@@ -22,20 +22,6 @@ const guideData = [
     author: 'John Doe',
     imageSrc: testImage,
   },
-  {
-    id: 2,
-    title: 'This is an exciting title!',
-    date: 'July 25, 2023',
-    author: 'John Doe',
-    imageSrc: testImage,
-  },
-  {
-    id: 2,
-    title: 'This is an exciting title!',
-    date: 'July 25, 2023',
-    author: 'John Doe',
-    imageSrc: testImage,
-  },
   // Add more guide data as needed
 ];
 
