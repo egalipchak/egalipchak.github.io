@@ -5,6 +5,7 @@ import LandingPage from './components/LandingPage';
 import PuzzlePage from './components/PuzzlePage';
 import GuidesPage from './components/GuidesPage';
 import AboutPage from './components/AboutPage';
+import GuidePage from './components/GuidePage';
 import KanoMatchesPage from './components/KanoMatchesPage';
 import './common.css';
 
@@ -72,6 +73,30 @@ const App = () => {
     },
   ];
 
+  const guideData = [
+    {
+      id: 1,
+      title: 'Kano test guide!',
+      content: 'This is the content of Guide 1.This is the content of Guide 1.This is the conteThis is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide nt of Guide 1.This is the This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.This is the content of Guide 1.',
+      author: 'John Doe',
+      date: 'July 25, 2023',
+      twitter: 'https://twitter.com/johndoe',
+      discord: 'https://discord.gg/johndoe',
+      email: 'johndoe@example.com',
+    },
+    {
+      id: 2,
+      title: 'Guide 2',
+      content: 'This is the content of Guide 2.',
+      author: 'Jane Smith',
+      date: 'July 26, 2023',
+      twitter: 'https://twitter.com/janesmith',
+      discord: 'https://discord.gg/janesmith',
+      email: 'janesmith@example.com',
+    },
+    // Add more guides as needed
+  ];
+
   return (
     <Router>
       <div>
@@ -83,6 +108,7 @@ const App = () => {
           <Route path="/hard" element={<PuzzlePage images={hardImages} />} />
           {/* Add the new routes */}
           <Route path="/guides" element={<GuidesPage />} />
+          <Route path="/guides/:id" element={<GuidePage guideData={guideData} />} />
           <Route path="/about" element={<AboutPage />} />
          {/*<Route path="/kanomatches" element={<KanoMatchesPage />} />*/}
         </Routes>
