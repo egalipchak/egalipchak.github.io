@@ -28,3 +28,18 @@
 .menu-link:focus {
   color: #7f84b5; /* Change the color to blue on hover/focus */
 }
+
+/* Add a media query for screens with max-width 400px */
+@media screen and (max-width: 400px) {
+  .menu-bar {
+    padding: 0 5px; /* Further reduce the horizontal padding for very small screens */
+  }
+
+  .menu-link {
+    font-size: 0.8rem; /* Reduce the font size even more for very small screens */
+    padding: 0.2rem 0.5rem; /* Reduce the padding even more for very small screens */
+  }
+}
+
+
+

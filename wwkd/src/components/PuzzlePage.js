@@ -3,8 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './PuzzlePage.css';
 import MenuBar from './MenuBar';
 import BottomBar from './BottomBar';
-import SortDropdown from './SortDropdown'; // Import the SortDropdown component
-import './CommonPage.css';
+import SortDropdown from './SortDropdown';
 
 const PuzzlePage = ({ images }) => {
   const navigate = useNavigate();

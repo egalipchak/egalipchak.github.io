@@ -7,19 +7,35 @@
 .sort-section {
   display: flex;
   align-items: center;
-  margin-right: 10px; /* Add margin to the right of each dropdown section */
+  margin-right: 5px; /* Reduce the margin to the right of each dropdown section */
 }
 
 .sort-dropdown label {
   color: #fff;
-  font-size: 14px;
+  font-size: 12px; /* Reduce the font size for smaller screens */
 }
 
 .sort-dropdown select {
   background-color: #222;
   color: #fff;
-  font-size: 14px;
-  padding: 5px;
+  font-size: 12px; /* Reduce the font size for smaller screens */
+  padding: 3px; /* Reduce the padding for smaller screens */
   border: 1px solid #ccc;
   border-radius: 3px;
+}
+
+/* Add a media query for screens with max-width 400px */
+@media screen and (max-width: 400px) {
+  .sort-section {
+    margin-right: 3px; /* Further reduce the margin for very small screens */
+  }
+
+  .sort-dropdown label {
+    font-size: 10px; /* Reduce the font size even more for very small screens */
+  }
+
+  .sort-dropdown select {
+    font-size: 10px; /* Reduce the font size even more for very small screens */
+    padding: 2px; /* Reduce the padding even more for very small screens */
+  }
 }
