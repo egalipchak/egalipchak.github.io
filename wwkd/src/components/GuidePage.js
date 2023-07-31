@@ -55,7 +55,6 @@ const GuidePage = ({ guideData }) => {
             <div className="guide-header">
               <h1 className="guide-title">{guide.title}</h1>
               <div className="guide-author-links">
-                {/* Display author information if available */}
                 {guide.author && <p className="guide-author">{guide.author}</p>}
                 {guide.twitter && (
                   <a href={guide.twitter} target="_blank" rel="noopener noreferrer">
@@ -74,6 +73,7 @@ const GuidePage = ({ guideData }) => {
                 )}
               </div>
               <p className="guide-date">{guide.date}</p>
+              <hr className="guide-line" />
             </div>
             <div className="guide-body">
               {guide.content}

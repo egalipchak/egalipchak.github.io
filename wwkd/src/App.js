@@ -14,9 +14,9 @@ const App = () => {
     {
       id: 1,
       src: require('./assets/images/easyPuzzles/WWKD12.jpg'),
-      date: 'July 30, 2023',
+      date: 'April 27, 2022',
       difficulty: "Easy",
-      isNew: true,
+      isNew: false,
       title: 'Baby steps',
       description: (
         <>
@@ -32,7 +32,7 @@ const App = () => {
     {
       id: 2,
       src: require('./assets/images/mediumPuzzles/WWKD4.jpg'),
-      date: 'July 29, 2023',
+      date: 'February 23, 2022',
       difficulty: "Medium",
       isNew: false,
       title: 'High roller',
@@ -50,7 +50,7 @@ const App = () => {
     {
       id: 3,
       src: require('./assets/images/mediumPuzzles/WWKD6.jpg'),
-      date: 'July 28, 2023',
+      date: 'May 5, 2022',
       difficulty: "Medium",
       isNew: false,
       title: 'Fuse reveal',
@@ -67,7 +67,7 @@ const App = () => {
     {
       id: 4,
       src: require('./assets/images/mediumPuzzles/WWKD7.jpg'),
-      date: 'July 27, 2023',
+      date: 'February 24, 2022',
       difficulty: "Medium",
       title: 'Luck or curse',
       description: (
@@ -83,7 +83,7 @@ const App = () => {
     {
       id: 5,
       src: require('./assets/images/mediumPuzzles/WWKDGoldfish1.jpg'),
-      date: 'July 26, 2023',
+      date: 'May 9, 2022',
       difficulty: "Medium",
       isNew: false,
       title: 'Goldfishing',
@@ -100,7 +100,7 @@ const App = () => {
     {
       id: 6,
       src: require('./assets/images/mediumPuzzles/WWKD11.jpg'),
-      date: 'July 25, 2023',
+      date: 'March 30, 2022',
       difficulty: "Medium",
       isNew: false,
       title: 'Spectral death',
@@ -118,7 +118,7 @@ const App = () => {
     {
       id: 7,
       src: require('./assets/images/hardPuzzles/WWKD8.jpg'),
-      date: 'July 24, 2023',
+      date: 'March 3, 2022',
       difficulty: "Hard",
       isNew: false,
       title: 'The brick',
@@ -136,7 +136,7 @@ const App = () => {
     {
       id: 8,
       src: require('./assets/images/hardPuzzles/WWKD9.jpg'),
-      date: 'July 23, 2023',
+      date: 'March 10, 2022',
       difficulty: "Hard",
       isNew: false,
       title: 'Star of the show',
@@ -151,12 +151,133 @@ const App = () => {
       ),
       url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/tbz8j9/what_would_kano_do_wwkd_9/',
     },
+    {
+      id: 9,
+      src: require('./assets/images/easyPuzzles/WWKD13.jpg'),
+      date: 'April 28, 2022',
+      difficulty: "Easy",
+      isNew: false,
+      title: 'Cinders',
+      description: (
+        <>
+          <p>- You are the worlds luckiest Kano. Whenever you Opt or activate Kano, you get exactly what you want.</p>
+          <p>- What is the largest amount of damage you can generate with this hand during your turn?</p>
+          <p>- Abide by standard CC deck rules, use any cards you wish to run.- Opponent has 0 AB. No spell void.</p>
+        </>
+      ),
+      url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/ujxhdb/what_would_kano_do_wwkd_13/',
+    },
+    {
+      id: 10,
+      src: require('./assets/images/easyPuzzles/WWKD14.jpg'),
+      date: 'May 19, 2022',
+      difficulty: "Easy",
+      isNew: false,
+      title: 'The classic',
+      description: (
+        <>
+          <p>- Your opponent has exhausted their hand on their turn(zero cards in hand) and has zero pitch.</p>
+          <p>- Opponent is closing combat chain and passing priority to you before end phase.</p>
+          <p>- The exposed cards on the right are the top cards of your deck, lesson being on top. Assume you can Opt them after pitching your Eye.</p>
+          <p>- Assume you have access to any cards you want in your deck if you decide to search.</p>
+          <p>- Life totals are displayed in top left. Opponent has 22 life remaining.</p>
+        </>
+      ),
+      url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/utcw3e/what_would_kano_do_wwkd_14/',
+    },
+    {
+      id: 11,
+      src: require('./assets/images/mediumPuzzles/WWKD18.jpg'),
+      date: 'July 31, 2023',
+      difficulty: "Medium",
+      isNew: true,
+      title: 'Unexpected',
+      description: (
+        <>
+          <p>- You're against Katsu who's racing you.</p>
+          <p>- They're not going to AB at all because they know they have lethal next turn, and they rather use their AB incase you wildfire.</p>
+          <p>- It's your turn and you're looking to do as much damage as possible.</p>
+          <p>- Assume you have a blue(Aether Quickening) on top of your deck as pictured.</p>
+          <p>- Life totals are displayed in top left. Opponent has 36 life remaining.</p>
+        </>
+      ),
+      url: '',
+    },
   ];
 
   const guideData = [
     {
       id: 1,
-      title: 'Kano test guide!',
+      title: 'Kotarou\'s blitz primer guide',
+      content: (
+        <>
+          <p>
+            Unleash massive 14+ damage spells and watch the meta tremble with fear as you control the battlefield with Kano. As the most fearsome deck in blitz, Kano's strategy involves flinging overwhelming amounts of arcane damage, forcing opponents to adapt their game plans to survive. With an unparalleled hero ability, Kano can play non-attack action cards from the top of the deck at instant speed, keeping opponents on edge and striking fear into their hearts. Embrace the role of the ultimate glass cannon with Kano's lowest starting life of 15, and discover the art of "false tempo" to outmaneuver your foes. Join this ever-evolving guide to harness the power of Kano and become a force to be reckoned with.
+          </p>
+          <a href="https://docs.google.com/document/d/1aB8YH65cT_Q7e2LYi21VMDoXwja05EwxZj04Bnk3XLI" target="_blank" rel="noopener noreferrer">
+            Link to blitz primer guide
+          </a>
+        </>
+      ),
+      author: 'Kotarou aka Kieran Carnegie',
+      date: 'July 30, 2023',
+      discord: 'https://discordapp.com/users/100833161851699200',
+    },
+    {
+      id: 2,
+      title: 'Tog\'s Kano CC sideboard guide',
+      content: (
+        <>
+          <p>
+          Conquer the DTD meta with Kano using this comprehensive guide by Tog. Master sideboarding strategies against various classes to optimize your deck for every encounter. Join the ranks of skilled Kano players who dominate the DTD meta. Arm yourself with the knowledge and strategies in this matchup guide to become a true force to be reckoned with.
+          </p>
+          <a href="https://docs.google.com/document/d/16w_fDk4ZHgLlNjWEr6MN0woPo22jTK84KZiVAxHyIUY" target="_blank" rel="noopener noreferrer">
+            Link to Tog's CC sideboard guide
+          </a>
+        </>
+      ),
+      author: 'Tog',
+      date: 'July 30, 2023',
+      discord: 'https://discordapp.com/users/269656564816674827',
+      twitter: 'https://twitter.com/WeMakeBestFAB1',
+    },
+    {
+      id: 3,
+      title: 'Dropmaw\'s card counting strat',
+      content: (
+        <>
+          <p>The technique is similar to the version of counting cards for blackjack, but even easier since we're usually dealing with around 60 cards. The benefit to this technique is to give you a better idea of whether there is a useful card on top of your deck, or just a blue, all through basic statistics. All that's required from the technique is keeping track of one number.</p>
+          <p>Let's walk through a realistic example and assume you have 30 blue cards in your deck, and the other 30 cards are things you would like to see on top of your deck which would be a mixture of reds and yellows. </p>
+          <p>First we want to assign all of our blue cards a +1, and all the other cards which are reds and yellows a -1. If we add up all of those +1's and -1's, we get 0. This zero is very important to remember, because it's going to be the starting point of our deck, and we will simply be incrementing this number either up or down depending on what we draw.</p>
+          <p>So lets start with an example of an opening hand where we draw four blues which is equivilant to +4. All we do is just add 4 to our 0, and keep track of 4.</p>
+          <p>Similarly if our opening hand were to be 4 reds, then that's -4, so we just subtract 4 from our 0, which would be -4.</p>
+          <p>Both of these numbers above represent knowledge of what might be on top of your deck. If the number that you're keeping track of is positive, then there is a higher likelyhood that the top card of your deck is going to be a red/yellow. Oppositely if the number youre tracking is negative then the likelyhood of there being a blue on top of your deck is higher. All you have to do at this point is simply update your number whenever you draw a card into your hand, banish a card off the top of your deck using Kano's ability, or OPT and decide to bottom a card. As you track this singular number, ir should give you better odds and likelyhood on what you may see on top of your deck.</p>
+          <p>Lets hammer in one more example just so we're absolutely clear on how it works:</p>
+          <br></br>
+          <p>Turn 1:</p>
+          <p>Draw 4 cards, blue blue blue blue. Count is 4, indicates red/yellow is more likely on top.</p>
+          <p>Action phase: Kano, banishing red. Count is updated to 3. Kano, banishing red. Count is updated to 2.</p>
+          <p>End phase: Draw 4 cards, red red red red. Count is updated to -2, indicates blues are more likely on top.</p>
+          <br></br>
+          <p>Turn 2:</p>
+          <p>Action phase: Play red card, pitch 3 reds. Count is still -2.</p>
+          <p>End phase: Draw 4 cards, red blue blue blue. Count is updated to 0, indicates equal chance of red/yellow/blue on top.</p>
+          <br></br>
+          <p>Now when is this actually useful?</p>
+          <p>Well lets take for example that you Kano and banish a tome off the top of your deck. At this point your faced with a decision of whether you Kano more before your use the tome, or should use the tome right then and there to preferably draw blues? Well you can use your count to determine what's better to do at that moment, as having access to that know of knowledge will give you a better likelyhood of drawing blues with your tome instead of reds/yellows.</p>
+          <p>It can also help you determine whether or not your ragamuffin's is likely to fail or succeed. Additionally also helps in many other instances of just make decisions of whether or not to "go off" on your opponents turn, especially in the case where you have a heavy blue hand and your count is decently in the positive indicating reds on top of your deck. The useage of counting spirals into just about all other deicions during a game. It's a technique I prefer to use as it helps with making deicions based on simple math rather than feeling. </p>
+          <p></p>
+        </>
+      ),
+      author: 'Dropmaw',
+      date: 'July 30, 2023',
+      twitter: 'https://twitter.com/dropmaw',
+      discord: 'https://discordapp.com/users/193506197591031810',
+    },
+    // Add more guides as needed
+    /*{
+      id: 1,
+      title: 'Kotarou\'s blitz primer guide',
       content: (
         <>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -180,66 +301,11 @@ const App = () => {
           />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-            Test reference link to google
+          <a href="https://docs.google.com/document/d/1aB8YH65cT_Q7e2LYi21VMDoXwja05EwxZj04Bnk3XLI" target="_blank" rel="noopener noreferrer">
+            Link to blitz primer guide
           </a>
         </>
-      ),
-      author: 'John Doe',
-      date: 'July 25, 2023',
-      twitter: 'https://twitter.com/johndoe',
-      discord: 'https://discord.gg/johndoe',
-      email: 'johndoe@example.com',
-    },
-    {
-      id: 2,
-      title: 'Kano test guide! number 2',
-      content: (
-        <>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </>
-      ),
-      author: 'John Doe',
-      date: 'July 25, 2023',
-      twitter: 'https://twitter.com/johndoe',
-      discord: 'https://discord.gg/johndoe',
-      email: 'johndoe@example.com',
-    },
-    {
-      id: 3,
-      title: 'Kano test guide! number 3',
-      content: (
-        <>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </>
-      ),
-      author: 'John Doe',
-      date: 'July 25, 2023',
-      twitter: 'https://twitter.com/johndoe',
-      discord: 'https://discord.gg/johndoe',
-      email: 'johndoe@example.com',
-    },
-    {
-      id: 4,
-      title: 'Kano test guide! number 4',
-      content: (
-        <>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </>
-      ),
-      author: 'John Doe',
-      date: 'July 25, 2023',
-      twitter: 'https://twitter.com/johndoe',
-      discord: 'https://discord.gg/johndoe',
-      email: 'johndoe@example.com',
-    },
-    // Add more guides as needed
+      ),*/
   ];
 
   return (

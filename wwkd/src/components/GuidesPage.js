@@ -8,36 +8,30 @@ import testImage0 from '../assets/images/test-image.png';
 import testImage1 from '../assets/images/cru-background.jpg';
 import testImage2 from '../assets/images/test-image-1.jpg';
 import testImage3 from '../assets/images/gaze-the-ages.jpg';
+import testImage4 from '../assets/images/kano-adult.jpg';
 
 // Define some dummy guide data for demonstration
 const guideData = [
   {
     id: 1,
-    title: 'This is an exciting title!',
-    date: 'July 25, 2023',
-    author: 'John Doe',
+    title: 'Blitz primer guide',
+    date: 'July 30, 2023',
+    author: 'Kotarou',
     imageSrc: testImage0,
   },
   {
     id: 2,
-    title: 'This is also an exciting title!',
-    date: 'July 25, 2023',
-    author: 'John Doe',
-    imageSrc: testImage1,
+    title: 'Kano CC sideboard guide',
+    date: 'July 30, 2023',
+    author: 'Tog',
+    imageSrc: testImage3,
   },
   {
     id: 3,
-    title: 'Another title!',
-    date: 'July 25, 2023',
-    author: 'John Doe',
+    title: 'Blackjack card counting strat',
+    date: 'July 30, 2023',
+    author: 'Dropmaw',
     imageSrc: testImage2,
-  },
-  {
-    id: 4,
-    title: 'Titles!',
-    date: 'July 25, 2023',
-    author: 'John Doe',
-    imageSrc: testImage3,
   },
   // Add more guide data as needed
 ];

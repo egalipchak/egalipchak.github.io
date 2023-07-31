@@ -32,7 +32,7 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <MenuBar />
-      <video playsInline webkit-playsinline autoPlay loop muted poster={BackgroundWallpaper}>
+      <video playsInline webkit-playsinline autoPlay loop muted preload="auto" poster={BackgroundWallpaper}>
         <source src={BackgroundVideoMp4} type="video/mp4" />
         <source src={BackgroundVideoWebm} type="video/webm" />
       </video>
