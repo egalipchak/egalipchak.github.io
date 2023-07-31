@@ -4,7 +4,10 @@ import MenuBar from './MenuBar';
 import BottomBar from './BottomBar';
 import './CommonPage.css';
 import { Link } from 'react-router-dom';
-import testImage from '../assets/images/test-image.png';
+import testImage0 from '../assets/images/test-image.png';
+import testImage1 from '../assets/images/cru-background.jpg';
+import testImage2 from '../assets/images/test-image-1.jpg';
+import testImage3 from '../assets/images/gaze-the-ages.jpg';
 
 // Define some dummy guide data for demonstration
 const guideData = [
@@ -13,28 +16,28 @@ const guideData = [
     title: 'This is an exciting title!',
     date: 'July 25, 2023',
     author: 'John Doe',
-    imageSrc: testImage,
+    imageSrc: testImage0,
   },
   {
     id: 2,
-    title: 'This is an exciting title!',
+    title: 'This is also an exciting title!',
     date: 'July 25, 2023',
     author: 'John Doe',
-    imageSrc: testImage,
+    imageSrc: testImage1,
   },
   {
     id: 3,
-    title: 'This is an exciting title!',
+    title: 'Another title!',
     date: 'July 25, 2023',
     author: 'John Doe',
-    imageSrc: testImage,
+    imageSrc: testImage2,
   },
   {
     id: 4,
-    title: 'This is an exciting title!',
+    title: 'Titles!',
     date: 'July 25, 2023',
     author: 'John Doe',
-    imageSrc: testImage,
+    imageSrc: testImage3,
   },
   // Add more guide data as needed
 ];

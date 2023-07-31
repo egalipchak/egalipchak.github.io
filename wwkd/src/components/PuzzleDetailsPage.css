@@ -1,0 +1,81 @@
+/* PuzzleDetailsPage.css */
+body {
+  margin: 0;
+  background-color: #1d1d1d; /* Set the background color for the whole screen */
+}
+
+.puzzle-details-page {
+  padding: 1rem;
+  color: #fff;
+  max-width: 1400px; /* Add a max-width to prevent the content from getting too wide */
+  margin: 0 auto; /* Center the container horizontally */
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 90vh; /* Limit the image height to 90% of the viewport height */
+  object-fit: cover; /* Adjust image size while maintaining aspect ratio */
+  margin-bottom: 1rem;
+  display: block; /* Added to center the image */
+  margin-left: auto; /* Added to center the image */
+  margin-right: auto; /* Added to center the image */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.puzzle-details-page p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: left; /* Align the puzzle difficulty and description to the left */
+  margin-left: 1rem; /* Adjust the margin-left value to move the content closer to the center */
+}
+
+.solution-link-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.solution-link {
+  font-size: 1rem;
+  color: #a20606;
+  text-decoration: none;
+}
+
+/* Wrapper to ensure BottomBar is pushed to the bottom of the screen */
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .puzzle-details-page {
+    padding: 1rem;
+    max-width: 100%; /* Adjust the max-width for smaller screens */
+  }
+
+  img {
+    max-height: 50vh; /* Adjust the max-height for smaller screens */
+  }
+
+  .puzzle-details-page p {
+    margin-left: 0; /* Reset the margin-left for smaller screens */
+  }
+}
