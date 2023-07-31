@@ -59,10 +59,18 @@
 }
 
 .guide-author-links a {
-  margin-left: 20px;
   color: #007bff;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
+}
+
+.guide-author-links a:not(:last-child) {
+  margin-right: 6px; /* Add margin between the icons */
+}
+
+.guide-author-links a svg {
+  margin-top: 9px;
+  margin-bottom: 2px;
 }
 
 .guide-author-links a:hover {
