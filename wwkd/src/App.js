@@ -24,7 +24,7 @@ const App = () => {
           <p>- Opponent is closing combat chain and passing priority to you before end phase.</p>
           <p>- The exposed cards on the right are the top cards of your deck, lesson being on top. Assume you can Opt them after pitching your Eye.</p>
           <p>- Assume you have access to any cards you want in your deck if you decide to search.</p>
-          <p>- Life totals are displayed in top left. Opponent has 22 life remaining.</p>
+          <p>- Life totals are displayed in top left. Opponent has 33 life remaining.</p>
         </>
       ),
       url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/ue6abk/what_would_kano_do_wwkd_12/',

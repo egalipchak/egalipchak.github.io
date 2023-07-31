@@ -11,10 +11,10 @@
 }
 
 .guide-container {
-  margin-left: -20px; /* need this to center the content, not sure whats messing this up */
-  max-width: 800px;
+  padding: 20px; /* Add padding to create space between the content and the edge of the screen */
   width: 100%; /* Set the width to 100% to fill the screen horizontally */
-  padding: 30px;
+  max-width: 600px; /* Set a maximum width for the content to ensure it fits within the screen */
+  margin: 0 auto; /* Center the content horizontally */
   margin-top: 20px; /* Add a margin to the top to push it below the MenuBar */
   background-color: #edecff;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);

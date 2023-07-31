@@ -23,9 +23,9 @@ const PuzzleDetailsPage = ({ images }) => {
           <p className="text-outline">Difficulty: {puzzle.difficulty}</p>
           <p className="text-outline">Description: {puzzle.description}</p>
           <div className="solution-link-container">
-            <a href={puzzle.url} target="_blank" rel="noopener noreferrer" className="solution-link">
+            {puzzle.url !== "" && <a href={puzzle.url} target="_blank" rel="noopener noreferrer" className="solution-link">
               ~~Solution Discussion Link~~
-            </a>
+            </a>}
           </div>
         </div>
       </div>
