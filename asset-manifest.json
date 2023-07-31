@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f75eee7.css",
-    "main.js": "/static/js/main.c599cf22.js",
+    "main.css": "/static/css/main.2087aae5.css",
+    "main.js": "/static/js/main.7289c45a.js",
     "static/media/gaze-the-ages.mp4": "/static/media/gaze-the-ages.157d76112ed1ced7b1a1.mp4",
     "static/media/gaze-the-ages.webm": "/static/media/gaze-the-ages.b49a30fe4b3a23a68c32.webm",
     "static/media/WWKD7.jpg": "/static/media/WWKD7.2bbd1832e40d091296e7.jpg",
@@ -12,17 +12,21 @@
     "static/media/WWKDGoldfish1.jpg": "/static/media/WWKDGoldfish1.d6e7e1e1055836ce2e33.jpg",
     "static/media/WWKD6.jpg": "/static/media/WWKD6.883cd97014691765105f.jpg",
     "static/media/WWKD8.jpg": "/static/media/WWKD8.11e74325becb379d10d9.jpg",
+    "static/media/WWKD18.jpg": "/static/media/WWKD18.12fa0c307456acc7080a.jpg",
     "static/media/WWKD11.jpg": "/static/media/WWKD11.92e9fe940168236acfe9.jpg",
     "static/media/WWKD9.jpg": "/static/media/WWKD9.26653fe3eee94c61732e.jpg",
     "static/media/cru-background.jpg": "/static/media/cru-background.b1e84ecad3f066b4e69a.jpg",
+    "static/media/kano-adult.jpg": "/static/media/kano-adult.7e98d71eba4d3a7e0422.jpg",
+    "static/media/WWKD13.jpg": "/static/media/WWKD13.c6b9d94bbef3c8d690ec.jpg",
+    "static/media/WWKD14.jpg": "/static/media/WWKD14.c9833d77a6a9d4b52a2b.jpg",
     "static/media/test-image-1.jpg": "/static/media/test-image-1.d297c4f0ed8b945b8939.jpg",
     "static/media/whispers-of-oracle.jpg": "/static/media/whispers-of-oracle.d297c4f0ed8b945b8939.jpg",
     "index.html": "/index.html",
-    "main.3f75eee7.css.map": "/static/css/main.3f75eee7.css.map",
-    "main.c599cf22.js.map": "/static/js/main.c599cf22.js.map"
+    "main.2087aae5.css.map": "/static/css/main.2087aae5.css.map",
+    "main.7289c45a.js.map": "/static/js/main.7289c45a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f75eee7.css",
-    "static/js/main.c599cf22.js"
+    "static/css/main.2087aae5.css",
+    "static/js/main.7289c45a.js"
   ]
 }
