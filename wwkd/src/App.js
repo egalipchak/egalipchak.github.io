@@ -14,7 +14,7 @@ const App = () => {
     {
       id: 1,
       src: require('./assets/images/easyPuzzles/WWKD12.jpg'),
-      date: 'July 25, 2023',
+      date: 'July 30, 2023',
       difficulty: "Easy",
       isNew: true,
       title: 'Baby steps',
@@ -32,7 +32,7 @@ const App = () => {
     {
       id: 2,
       src: require('./assets/images/mediumPuzzles/WWKD4.jpg'),
-      date: 'July 25, 2023',
+      date: 'July 29, 2023',
       difficulty: "Medium",
       isNew: false,
       title: 'High roller',
@@ -50,7 +50,7 @@ const App = () => {
     {
       id: 3,
       src: require('./assets/images/mediumPuzzles/WWKD6.jpg'),
-      date: 'July 25, 2023',
+      date: 'July 28, 2023',
       difficulty: "Medium",
       isNew: false,
       title: 'Fuse reveal',
@@ -67,7 +67,7 @@ const App = () => {
     {
       id: 4,
       src: require('./assets/images/mediumPuzzles/WWKD7.jpg'),
-      date: 'July 25, 2023',
+      date: 'July 27, 2023',
       difficulty: "Medium",
       title: 'Luck or curse',
       description: (
@@ -83,7 +83,7 @@ const App = () => {
     {
       id: 5,
       src: require('./assets/images/mediumPuzzles/WWKDGoldfish1.jpg'),
-      date: 'July 25, 2023',
+      date: 'July 26, 2023',
       difficulty: "Medium",
       isNew: false,
       title: 'Goldfishing',
@@ -118,7 +118,7 @@ const App = () => {
     {
       id: 7,
       src: require('./assets/images/hardPuzzles/WWKD8.jpg'),
-      date: 'July 25, 2023',
+      date: 'July 24, 2023',
       difficulty: "Hard",
       isNew: false,
       title: 'The brick',
@@ -136,7 +136,7 @@ const App = () => {
     {
       id: 8,
       src: require('./assets/images/hardPuzzles/WWKD9.jpg'),
-      date: 'July 25, 2023',
+      date: 'July 23, 2023',
       difficulty: "Hard",
       isNew: false,
       title: 'Star of the show',

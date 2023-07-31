@@ -1,0 +1,25 @@
+/* SortDropdown.css */
+.sort-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.sort-section {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Add margin to the right of each dropdown section */
+}
+
+.sort-dropdown label {
+  color: #fff;
+  font-size: 14px;
+}
+
+.sort-dropdown select {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}

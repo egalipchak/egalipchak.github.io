@@ -1,5 +1,4 @@
 /* PuzzlePage.css */
-
 body {
   margin: 0;
   background-color: #1d1d1d; /* Set the background color for the whole screen */
@@ -10,7 +9,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Use auto-fill and fractional units */
   gap: 1rem;
   padding: 1rem;
-  padding-top: 70px; /* Add padding to push the content below the menu bar */
+  padding-top: 140px; /* Add padding to push the content below the menu bar */
 }
 
 .puzzle-tile {
@@ -143,6 +142,28 @@ body {
 
 .puzzle-flex-container {
   flex: 1;
+}
+
+.sort-dropdown {
+  position: absolute;
+  top: 80px; /* Shift the SortDropdown downwards by 80px */
+  right: 27px;
+  z-index: 999; /* Ensure the dropdown appears above other content */
+}
+
+.sort-dropdown label {
+  margin-right: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.sort-dropdown select {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 @media screen and (max-width: 800px) {
