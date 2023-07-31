@@ -20,11 +20,10 @@ const App = () => {
       title: 'Baby steps',
       description: (
         <>
-          <p>- Your opponent has exhausted their hand on their turn (zero cards in hand) and has zero pitch.</p>
-          <p>- Opponent is closing combat chain and passing priority to you before end phase.</p>
-          <p>- The exposed cards on the right are the top cards of your deck, lesson being on top. Assume you can Opt them after pitching your Eye.</p>
-          <p>- Assume you have access to any cards you want in your deck if you decide to search.</p>
-          <p>- Life totals are displayed in top left. Opponent has 33 life remaining.</p>
+          <p>- Your opponent is swinging for lethal, figure out how to deal lethal damage.</p>
+          <p>- You have just broken lens to see your two cards on top -- they're exposed on top of your deck</p>
+          <p>- Opponent has 0 Arcane Barrier.</p>
+          <p>- Life totals are displayed in top left. Opponent has 33 life remaining. Aether Flare is on the top of your deck.</p>
         </>
       ),
       url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/ue6abk/what_would_kano_do_wwkd_12/',
@@ -108,7 +107,7 @@ const App = () => {
         <>
           <p>- Figure out how to end the game, as your opponent is attacking you on their turn.</p>
           <p>- Opponent has 2 Arcane Barrier using Crown of Reflection and one Nullrune piece. They are potentially holding two blues in hand.</p>
-          <p>Note opponent has 4 spectral shields in play.</p>
+          <p>- Note opponent has 4 spectral shields in play.</p>
           <p>- You have responded with Cindering Foresight from arsenal, and are free to arrange the three cards (right side) in any way you want.</p>
           <p>- Opponent will use AB as intelligently as possible. Life totals are displayed in the top left. Opponent has 11 life remaining.</p>
         </>
@@ -160,9 +159,10 @@ const App = () => {
       title: 'Cinders',
       description: (
         <>
-          <p>- You are the worlds luckiest Kano. Whenever you Opt or activate Kano, you get exactly what you want.</p>
-          <p>- What is the largest amount of damage you can generate with this hand during your turn?</p>
-          <p>- Abide by standard CC deck rules, use any cards you wish to run.- Opponent has 0 AB. No spell void.</p>
+          <p>- Your opponent is swinging for near-lethal(lightning surge), and you played a Cindering Foresight from arsenal during the reaction phase.</p>
+          <p>- Arrange the cards in any order on top of your deck.</p>
+          <p>- Opponent has 0 Arcane Barrier.</p>
+          <p>- Life totals are displayed in top left. Opponent has 24 life remaining.</p>
         </>
       ),
       url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/ujxhdb/what_would_kano_do_wwkd_13/',
@@ -176,11 +176,11 @@ const App = () => {
       title: 'The classic',
       description: (
         <>
-          <p>- Your opponent has exhausted their hand on their turn(zero cards in hand) and has zero pitch.</p>
+          <p>- Your opponent has exhausted their hand on their turn(zero cards in hand) and has zero pitch. </p>
           <p>- Opponent is closing combat chain and passing priority to you before end phase.</p>
           <p>- The exposed cards on the right are the top cards of your deck, lesson being on top. Assume you can Opt them after pitching your Eye.</p>
           <p>- Assume you have access to any cards you want in your deck if you decide to search.</p>
-          <p>- Life totals are displayed in top left. Opponent has 22 life remaining.</p>
+          <p>Life totals are displayed in top left. Opponent has 22 life remaining.</p>
         </>
       ),
       url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/utcw3e/what_would_kano_do_wwkd_14/',
@@ -199,9 +199,10 @@ const App = () => {
           <p>- It's your turn and you're looking to do as much damage as possible.</p>
           <p>- Assume you have a blue(Aether Quickening) on top of your deck as pictured.</p>
           <p>- Life totals are displayed in top left. Opponent has 36 life remaining.</p>
+          <p>- Considerations: Would it be wise to use metacarpus during your turn? Why or why not?</p>
         </>
       ),
-      url: '',
+      url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15emnwx/what_would_kano_do_wwkd_18/',
     },
   ];
 
