@@ -10,7 +10,7 @@ const AboutPage = () => {
         <MenuBar />
           <div className="content">
             <h1>About</h1>
-            <p>Hey there, I'm Eugene. My journey with Flesh and Blood began somewhere between Crucible of War and Monarch, 
+            <p>Hey there, I'm Eugene(ID: 48835423). My journey with Flesh and Blood began somewhere between Crucible of War and Monarch, 
                 which was also around the time I became intrigued with Kano, Dracai of Aether. As someone who has played numerous 
                 mainstream TCGs throughout my life, I can confidently say that playing Kano has taken me on an unending voyage 
                 of exploration. The deck and play style associated with Kano are incredibly rewarding, offering a plethora of 
@@ -43,7 +43,7 @@ const AboutPage = () => {
                 <li>Expand the WWKD puzzle series, add more of the relevant legacy puzzles</li>
                 <li>Add kano specific VOD matches sorted by most recent, and those those into a separate tab</li>
                 <li>Elaborate on the guides section and reach out to creators in regards to posting</li>
-                <li>Enhance website design for better user experience</li>
+                <li>(Ongoing) Enhance website design for better user experience</li>
                     <ul>
                         <li>Minor bugs and tweaks for accessability across different browsers and devices</li>
                         <li>Work on more responsive loading times</li>

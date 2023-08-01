@@ -4,37 +4,6 @@ import MenuBar from './MenuBar';
 import BottomBar from './BottomBar';
 import './CommonPage.css';
 import { Link } from 'react-router-dom';
-import testImage0 from '../assets/images/test-image.png';
-import testImage1 from '../assets/images/cru-background.jpg';
-import testImage2 from '../assets/images/test-image-1.jpg';
-import testImage3 from '../assets/images/gaze-the-ages.jpg';
-import testImage4 from '../assets/images/kano-adult.jpg';
-
-// Define some dummy guide data for demonstration
-const guideData = [
-  {
-    id: 1,
-    title: 'Blitz primer guide',
-    date: 'July 30, 2023',
-    author: 'Kotarou',
-    imageSrc: testImage0,
-  },
-  {
-    id: 2,
-    title: 'Kano CC sideboard guide',
-    date: 'July 30, 2023',
-    author: 'Tog',
-    imageSrc: testImage3,
-  },
-  {
-    id: 3,
-    title: 'Blackjack card counting strat',
-    date: 'July 30, 2023',
-    author: 'Dropmaw',
-    imageSrc: testImage2,
-  },
-  // Add more guide data as needed
-];
 
 const GuideModal = ({ guide }) => {
   return (
@@ -50,7 +19,7 @@ const GuideModal = ({ guide }) => {
   );
 };
 
-const GuidesPage = () => {
+const GuidesPage = ({ guideData }) => {
   return (
     <div>
       <MenuBar />

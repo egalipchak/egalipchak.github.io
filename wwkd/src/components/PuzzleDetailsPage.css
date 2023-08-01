@@ -64,6 +64,26 @@ img {
   align-items: center;
 }
 
+/* Add the show and hide classes -- specifically for showing the entire container only once image is rendered */
+.show {
+  display: block; /* Show the content */
+}
+
+.hide {
+  display: none; /* Hide the content */
+}
+
+/* For loading indicator */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust the height as needed */
+  font-size: 1.5rem;
+  color: #a80202;
+  white-space: pre; /* Preserve white spaces in the text */
+}
+
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
   .puzzle-details-page {
