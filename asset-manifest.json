@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.af7347aa.css",
-    "main.js": "/static/js/main.8d22f612.js",
+    "main.css": "/static/css/main.c8991cd4.css",
+    "main.js": "/static/js/main.27a10a86.js",
     "static/media/gaze-the-ages.mp4": "/static/media/gaze-the-ages.157d76112ed1ced7b1a1.mp4",
     "static/media/gaze-the-ages.webm": "/static/media/gaze-the-ages.b49a30fe4b3a23a68c32.webm",
     "static/media/WWKD7.jpg": "/static/media/WWKD7.2bbd1832e40d091296e7.jpg",
@@ -33,11 +33,11 @@
     "static/media/test-image-1.jpg": "/static/media/test-image-1.d297c4f0ed8b945b8939.jpg",
     "static/media/whispers-of-oracle.jpg": "/static/media/whispers-of-oracle.d297c4f0ed8b945b8939.jpg",
     "index.html": "/index.html",
-    "main.af7347aa.css.map": "/static/css/main.af7347aa.css.map",
-    "main.8d22f612.js.map": "/static/js/main.8d22f612.js.map"
+    "main.c8991cd4.css.map": "/static/css/main.c8991cd4.css.map",
+    "main.27a10a86.js.map": "/static/js/main.27a10a86.js.map"
   },
   "entrypoints": [
-    "static/css/main.af7347aa.css",
-    "static/js/main.8d22f612.js"
+    "static/css/main.c8991cd4.css",
+    "static/js/main.27a10a86.js"
   ]
 }
