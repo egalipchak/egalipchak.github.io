@@ -1,6 +1,7 @@
 // PuzzleDetailsPage.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import './PuzzleDetailsPage.css';
 import BottomBar from './BottomBar';
 import MenuBar from './MenuBar';
@@ -10,11 +11,20 @@ const PuzzleDetailsPage = ({ images }) => {
   const puzzle = images.find((puzzle) => puzzle.id === parseInt(id, 10));
 
   if (!puzzle) {
-    return <div>Puzzle not found</div>;
+    return <div>Puzzle not found!</div>;
   }
+
+  const ogImageUrl = puzzle.src;
 
   return (
     <div className="page-wrapper">
+      <Helmet>
+        <title>{puzzle.title}</title>
+        <meta property="og:title" content={puzzle.title} />
+        <meta property="og:description" content={`Difficulty: ${puzzle.difficulty}`} />
+        <meta property="og:image" content={ogImageUrl} />
+        <meta property="og:url" content={`https://www.whatwouldkanodo.com/#/puzzles/${puzzle.id}`} />
+      </Helmet>
       <MenuBar />
       <div className="content-container">
         <div className="puzzle-details-page">
