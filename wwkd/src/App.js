@@ -14,6 +14,7 @@ const App = () => {
     {
       id: 1,
       src: require('./assets/images/easyPuzzles/WWKD12.jpg'),
+      thumbnail: require('./assets/images/easyPuzzles/WWKD12-TN.png'),
       date: 'April 27, 2022',
       difficulty: "Easy",
       isNew: false,
@@ -31,6 +32,7 @@ const App = () => {
     {
       id: 2,
       src: require('./assets/images/mediumPuzzles/WWKD4.jpg'),
+      thumbnail: require('./assets/images/mediumPuzzles/WWKD4-TN.png'),
       date: 'February 23, 2022',
       difficulty: "Medium",
       isNew: false,
@@ -49,6 +51,7 @@ const App = () => {
     {
       id: 3,
       src: require('./assets/images/mediumPuzzles/WWKD6.jpg'),
+      thumbnail: require('./assets/images/mediumPuzzles/WWKD6-TN.png'),
       date: 'May 5, 2022',
       difficulty: "Medium",
       isNew: false,
@@ -66,6 +69,7 @@ const App = () => {
     {
       id: 4,
       src: require('./assets/images/mediumPuzzles/WWKD7.jpg'),
+      thumbnail: require('./assets/images/mediumPuzzles/WWKD7-TN.png'),
       date: 'February 24, 2022',
       difficulty: "Medium",
       title: 'Luck or curse',
@@ -82,6 +86,7 @@ const App = () => {
     {
       id: 5,
       src: require('./assets/images/mediumPuzzles/WWKDGoldfish1.jpg'),
+      thumbnail: require('./assets/images/mediumPuzzles/WWKDGoldfish1-TN.png'),
       date: 'May 9, 2022',
       difficulty: "Medium",
       isNew: false,
@@ -99,6 +104,7 @@ const App = () => {
     {
       id: 6,
       src: require('./assets/images/mediumPuzzles/WWKD11.jpg'),
+      thumbnail: require('./assets/images/mediumPuzzles/WWKD11-TN.png'),
       date: 'March 30, 2022',
       difficulty: "Medium",
       isNew: false,
@@ -117,6 +123,7 @@ const App = () => {
     {
       id: 7,
       src: require('./assets/images/hardPuzzles/WWKD8.jpg'),
+      thumbnail: require('./assets/images/hardPuzzles/WWKD8-TN.png'),
       date: 'March 3, 2022',
       difficulty: "Hard",
       isNew: false,
@@ -135,6 +142,7 @@ const App = () => {
     {
       id: 8,
       src: require('./assets/images/hardPuzzles/WWKD9.jpg'),
+      thumbnail: require('./assets/images/hardPuzzles/WWKD9-TN.png'),
       date: 'March 10, 2022',
       difficulty: "Hard",
       isNew: false,
@@ -153,6 +161,7 @@ const App = () => {
     {
       id: 9,
       src: require('./assets/images/easyPuzzles/WWKD13.jpg'),
+      thumbnail: require('./assets/images/easyPuzzles/WWKD13-TN.png'),
       date: 'April 28, 2022',
       difficulty: "Easy",
       isNew: false,
@@ -170,6 +179,7 @@ const App = () => {
     {
       id: 10,
       src: require('./assets/images/easyPuzzles/WWKD14.jpg'),
+      thumbnail: require('./assets/images/easyPuzzles/WWKD14-TN.png'),
       date: 'May 19, 2022',
       difficulty: "Easy",
       isNew: false,
@@ -188,6 +198,7 @@ const App = () => {
     {
       id: 11,
       src: require('./assets/images/mediumPuzzles/WWKD18.jpg'),
+      thumbnail: require('./assets/images/mediumPuzzles/WWKD18-TN.png'),
       date: 'July 31, 2023',
       difficulty: "Medium",
       isNew: true,

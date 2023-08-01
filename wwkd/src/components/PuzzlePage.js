@@ -55,7 +55,7 @@ const PuzzlePage = ({ images }) => {
                   <p className="puzzle-difficulty">{image.difficulty}</p>
                   <p className="puzzle-date">{image.date}</p>
                 </div>
-                <img src={image.src} alt={`Puzzle ${index + 1}`} />
+                <img src={image.thumbnail} alt={`Puzzle ${index + 1}`} />
               </div>
             </div>
           ))}
