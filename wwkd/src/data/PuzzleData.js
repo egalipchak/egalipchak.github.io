@@ -7,7 +7,7 @@ const PuzzleData = [
     {
         id: 1,
         src: require('../assets/images/easyPuzzles/WWKD12.jpg'),
-        thumbnail: require('../assets/images/easyPuzzles/WWKD12-TN.png'),
+        thumbnail: require('../assets/images/easyPuzzles/WWKD12-TN.jpg'),
         date: 'April 27, 2022',
         difficulty: "Easy",
         isNew: false,
@@ -25,7 +25,7 @@ const PuzzleData = [
     {
         id: 2,
         src: require('../assets/images/mediumPuzzles/WWKD4.jpg'),
-        thumbnail: require('../assets/images/mediumPuzzles/WWKD4-TN.png'),
+        thumbnail: require('../assets/images/mediumPuzzles/WWKD4-TN.jpg'),
         date: 'February 23, 2022',
         difficulty: "Medium",
         isNew: false,
@@ -44,7 +44,7 @@ const PuzzleData = [
     {
         id: 3,
         src: require('../assets/images/mediumPuzzles/WWKD6.jpg'),
-        thumbnail: require('../assets/images/mediumPuzzles/WWKD6-TN.png'),
+        thumbnail: require('../assets/images/mediumPuzzles/WWKD6-TN.jpg'),
         date: 'May 5, 2022',
         difficulty: "Medium",
         isNew: false,
@@ -62,7 +62,7 @@ const PuzzleData = [
     {
         id: 4,
         src: require('../assets/images/mediumPuzzles/WWKD7.jpg'),
-        thumbnail: require('../assets/images/mediumPuzzles/WWKD7-TN.png'),
+        thumbnail: require('../assets/images/mediumPuzzles/WWKD7-TN.jpg'),
         date: 'February 24, 2022',
         difficulty: "Medium",
         title: 'Luck or curse',
@@ -79,7 +79,7 @@ const PuzzleData = [
     {
         id: 5,
         src: require('../assets/images/mediumPuzzles/WWKDGoldfish1.jpg'),
-        thumbnail: require('../assets/images/mediumPuzzles/WWKDGoldfish1-TN.png'),
+        thumbnail: require('../assets/images/mediumPuzzles/WWKDGoldfish1-TN.jpg'),
         date: 'May 9, 2022',
         difficulty: "Medium",
         isNew: false,
@@ -97,7 +97,7 @@ const PuzzleData = [
     {
         id: 6,
         src: require('../assets/images/mediumPuzzles/WWKD11.jpg'),
-        thumbnail: require('../assets/images/mediumPuzzles/WWKD11-TN.png'),
+        thumbnail: require('../assets/images/mediumPuzzles/WWKD11-TN.jpg'),
         date: 'March 30, 2022',
         difficulty: "Medium",
         isNew: false,
@@ -116,7 +116,7 @@ const PuzzleData = [
     {
         id: 7,
         src: require('../assets/images/hardPuzzles/WWKD8.jpg'),
-        thumbnail: require('../assets/images/hardPuzzles/WWKD8-TN.png'),
+        thumbnail: require('../assets/images/hardPuzzles/WWKD8-TN.jpg'),
         date: 'March 3, 2022',
         difficulty: "Hard",
         isNew: false,
@@ -135,7 +135,7 @@ const PuzzleData = [
     {
         id: 8,
         src: require('../assets/images/hardPuzzles/WWKD9.jpg'),
-        thumbnail: require('../assets/images/hardPuzzles/WWKD9-TN.png'),
+        thumbnail: require('../assets/images/hardPuzzles/WWKD9-TN.jpg'),
         date: 'March 10, 2022',
         difficulty: "Hard",
         isNew: false,
@@ -154,7 +154,7 @@ const PuzzleData = [
     {
         id: 9,
         src: require('../assets/images/easyPuzzles/WWKD13.jpg'),
-        thumbnail: require('../assets/images/easyPuzzles/WWKD13-TN.png'),
+        thumbnail: require('../assets/images/easyPuzzles/WWKD13-TN.jpg'),
         date: 'April 28, 2022',
         difficulty: "Easy",
         isNew: false,
@@ -172,7 +172,7 @@ const PuzzleData = [
     {
         id: 10,
         src: require('../assets/images/easyPuzzles/WWKD14.jpg'),
-        thumbnail: require('../assets/images/easyPuzzles/WWKD14-TN.png'),
+        thumbnail: require('../assets/images/easyPuzzles/WWKD14-TN.jpg'),
         date: 'May 19, 2022',
         difficulty: "Easy",
         isNew: false,
@@ -191,7 +191,7 @@ const PuzzleData = [
     {
         id: 11,
         src: require('../assets/images/mediumPuzzles/WWKD18.jpg'),
-        thumbnail: require('../assets/images/mediumPuzzles/WWKD18-TN.png'),
+        thumbnail: require('../assets/images/mediumPuzzles/WWKD18-TN.jpg'),
         date: 'July 31, 2023',
         difficulty: "Medium",
         isNew: true,
@@ -207,6 +207,25 @@ const PuzzleData = [
         </>
         ),
         url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15emnwx/what_would_kano_do_wwkd_18/',
+    },
+    {
+        id: 12,
+        src: require('../assets/images/easyPuzzles/WWKD19.png'),
+        thumbnail: require('../assets/images/easyPuzzles/WWKD19-TN.jpg'),
+        date: 'August 4, 2023',
+        difficulty: "Easy",
+        isNew: true,
+        title: 'Flip of the hat',
+        description: (
+        <>
+            <p>- Your opponent has tapped out at 21 health.</p>
+            <p>- You Kano twice, revealing a Tome of Aetherwind and a blue Prognosticate.</p>
+            <p>- You send your wildfire from arsenal, and follow up with prognosticate to reveal your last Blazing Aether!</p>
+            <p>- How can you guarantee your victory?</p>
+            <p>- Shoutout to Vuh-Suh-Rai#2290 for creating this puzzle!</p>
+        </>
+        ),
+        url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15ibs23/what_would_kano_do_wwkd_19/',
     },
 ];
 
