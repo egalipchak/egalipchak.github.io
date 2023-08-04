@@ -222,7 +222,7 @@ const PuzzleData = [
             <p>- You Kano twice, revealing a Tome of Aetherwind and a blue Prognosticate.</p>
             <p>- You send your wildfire from arsenal, and follow up with prognosticate to reveal your last Blazing Aether!</p>
             <p>- How can you guarantee your victory?</p>
-            <p>- Shoutout to Vuh-Suh-Rai#2290 for creating this puzzle!</p>
+            <p>- Shoutout to TheTurtleMaturin on Discord for creating this puzzle!</p>
         </>
         ),
         url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15ibs23/what_would_kano_do_wwkd_19/',
