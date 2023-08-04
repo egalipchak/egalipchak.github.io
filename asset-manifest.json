@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.29afe359.css",
+    "main.css": "/static/css/main.07862f37.css",
     "main.js": "/static/js/main.ded14067.js",
     "static/media/gaze-the-ages.mp4": "/static/media/gaze-the-ages.157d76112ed1ced7b1a1.mp4",
     "static/media/gaze-the-ages.webm": "/static/media/gaze-the-ages.b49a30fe4b3a23a68c32.webm",
@@ -33,11 +33,11 @@
     "static/media/test-image-1.jpg": "/static/media/test-image-1.d297c4f0ed8b945b8939.jpg",
     "static/media/whispers-of-oracle.jpg": "/static/media/whispers-of-oracle.d297c4f0ed8b945b8939.jpg",
     "index.html": "/index.html",
-    "main.29afe359.css.map": "/static/css/main.29afe359.css.map",
+    "main.07862f37.css.map": "/static/css/main.07862f37.css.map",
     "main.ded14067.js.map": "/static/js/main.ded14067.js.map"
   },
   "entrypoints": [
-    "static/css/main.29afe359.css",
+    "static/css/main.07862f37.css",
     "static/js/main.ded14067.js"
   ]
 }
