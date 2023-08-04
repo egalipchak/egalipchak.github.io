@@ -25,6 +25,7 @@ const GuideData = [
         author: 'Kotarou',
         date: 'July 30, 2023',
         imageSrc: testImage0,
+        block: false,
         discord: 'https://discordapp.com/users/100833161851699200',
     },
     {
@@ -43,12 +44,13 @@ const GuideData = [
         author: 'Tog',
         date: 'July 30, 2023',
         imageSrc: testImage3,
+        block: false,
         discord: 'https://discordapp.com/users/269656564816674827',
         twitter: 'https://twitter.com/WeMakeBestFAB1',
     },
     {
         id: 3,
-        title: 'Blackjack card counting strat',
+        title: 'Blackjack card counting',
         content: (
         <>
             <p>The technique is similar to the version of counting cards for blackjack, but even easier since we're usually dealing with around 60 cards. The benefit to this technique is to give you a better idea of whether there is a useful card on top of your deck, or just a blue, all through basic statistics. All that's required from the technique is keeping track of one number.</p>
@@ -75,8 +77,9 @@ const GuideData = [
         </>
         ),
         author: 'Dropmaw',
-        date: 'July 30, 2023',
+        date: 'TBD',
         imageSrc: testImage2,
+        block: true,
         twitter: 'https://twitter.com/dropmaw',
         discord: 'https://discordapp.com/users/193506197591031810',
     },

@@ -6,9 +6,27 @@ import './CommonPage.css';
 import { Link } from 'react-router-dom';
 
 const GuideModal = ({ guide }) => {
+  const guideModalStyle = {
+    filter: guide.block ? 'grayscale(100%)' : 'none'
+  };
+
+  if (guide.block) {
+    return (
+      <div className="guide-modal">
+        <img src={guide.imageSrc} alt={guide.title} style={guideModalStyle} />
+        <div className="guide-info-container">
+          <div className="guide-info">
+            <h3>{guide.title}</h3>
+            <p>{guide.date} ⦿ {guide.author}</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <Link to={`/guides/${guide.id}`} className="guide-modal">
-      <img src={guide.imageSrc} alt={guide.title} />
+      <img src={guide.imageSrc} alt={guide.title} style={guideModalStyle} />
       <div className="guide-info-container">
         <div className="guide-info">
           <h3>{guide.title}</h3>
