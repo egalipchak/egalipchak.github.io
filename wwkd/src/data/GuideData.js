@@ -1,9 +1,7 @@
 /* GuideData.js */
 import testImage0 from '../assets/images/test-image.png';
-import testImage1 from '../assets/images/cru-background.jpg';
 import testImage2 from '../assets/images/test-image-1.jpg';
 import testImage3 from '../assets/images/gaze-the-ages.jpg';
-import testImage4 from '../assets/images/kano-adult.jpg';
 
 /*
 * Static data for guides
