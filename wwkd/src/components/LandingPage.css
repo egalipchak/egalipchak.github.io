@@ -56,7 +56,6 @@ body {
   text-decoration: none;
   font-size: 1rem; /* Updated font size */
   padding: 0.5rem 1rem;
-  border-radius: 5px;
   margin: 0.5rem;
   /* Remove the border */
   border: none;
@@ -76,8 +75,6 @@ body {
   transform: translateX(-50%);
   background-color: #000;
   padding: 10px; /* Add padding around the links inside the dropdown */
-  /* Remove rounded corners to make edges sharp */
-  border-radius: 0;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.3s, opacity 0.3s;

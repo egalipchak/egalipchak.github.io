@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './PuzzlePage.css';
 import MenuBar from './MenuBar';
 import BottomBar from './BottomBar';
 import SortDropdown from './SortDropdown';
+import './PuzzlePage.css';
 
 const PuzzlePage = ({ images }) => {
   const navigate = useNavigate();
@@ -41,7 +41,7 @@ const PuzzlePage = ({ images }) => {
   return (
     <div className="page-wrapper">
       <MenuBar />
-      <SortDropdown sortBy={sortBy} sortOrder={sortOrder} handleSortChange={handleSortChange} setSortOrder={setSortOrder} /> {/* Add the SortDropdown component */}
+      <SortDropdown sortBy={sortBy} sortOrder={sortOrder} handleSortChange={handleSortChange} setSortOrder={setSortOrder} />
       <div className="puzzle-flex-container">
         <div className="puzzle-page">
           {sortedImages.map((image, index) => (

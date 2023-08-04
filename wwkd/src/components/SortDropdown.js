@@ -1,10 +1,10 @@
 // SortDropdown.js
 import React from 'react';
-import './SortDropdown.css'; // Import the CSS for the SortDropdown component
+import './SortDropdown.css';
 
 const SortDropdown = ({ sortBy, sortOrder, handleSortChange, setSortOrder }) => {
   const handleSortOrderChange = (event) => {
-    setSortOrder(event.target.value); // Update the sortOrder state when the user selects a new order
+    setSortOrder(event.target.value);
   };
 
   return (

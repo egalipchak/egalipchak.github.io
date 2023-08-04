@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   height: 40px;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -16,10 +15,7 @@
   text-decoration: none;
   font-size: 1rem;
   padding: 0.5rem 1rem;
-  border-radius: 5px;
-  /* Remove the margin to ensure even spacing between the links */
   margin: 0;
-  /* Add transition for fading effect */
   transition: color 0.3s ease;
 }
 
@@ -30,16 +26,25 @@
 }
 
 /* Add a media query for screens with max-width 400px */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .menu-bar {
-    padding: 0 5px; /* Further reduce the horizontal padding for very small screens */
+    padding: 0;
+    justify-content: center; /* Center items horizontally */
   }
 
   .menu-link {
-    font-size: 0.8rem; /* Reduce the font size even more for very small screens */
     padding: 0.2rem 0.5rem; /* Reduce the padding even more for very small screens */
   }
 }
 
+@media screen and (max-width: 600px) {
+  .menu-bar {
+    padding: 0;
+    justify-content: center; /* Center items horizontally */
+  }
 
+  .menu-link {
+    padding: 0.2rem 0.5rem; /* Reduce the padding even more for very small screens */
+  }
+}
 

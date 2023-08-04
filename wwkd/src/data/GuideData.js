@@ -22,7 +22,7 @@ const GuideData = [
             </a>
         </>
         ),
-        author: 'Kotarou aka Kieran Carnegie',
+        author: 'Kotarou',
         date: 'July 30, 2023',
         imageSrc: testImage0,
         discord: 'https://discordapp.com/users/100833161851699200',

@@ -57,7 +57,6 @@ body {
   width: 100%;
   aspect-ratio: 4/3; /* Maintain 4:3 aspect ratio */
   border: 1px solid #ccc;
-  border-radius: 5px;
   overflow: hidden; /* Ensure images and descriptions stay within the box */
   position: relative; /* To position the puzzle details within the puzzle box */
 }
@@ -71,7 +70,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%); /* Center the image within the box */
   z-index: 1; /* Ensure the image is behind the puzzle details */
-  border-radius: 5px;
 }
 
 .puzzle-details {
@@ -105,7 +103,6 @@ body {
   max-height: 80%; /* Adjusted the max height */
   background-color: #222;
   border: 2px solid #fff;
-  border-radius: 5px;
   padding: 1rem;
   color: #fff;
   overflow-y: auto;
@@ -162,18 +159,18 @@ body {
   font-size: 14px;
   padding: 5px;
   border: 1px solid #ccc;
-  border-radius: 3px;
 }
 
 @media screen and (max-width: 800px) {
   .puzzle-page {
-    grid-template-columns: repeat(1, minmax(400px, 1fr)); /* Adjusted to display 1 tile per row for smaller screens */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjusted to display 1 tile per row for smaller screens */
+    width: calc(100% - 20px);
   }
 }
 
 @media screen and (max-width: 600px) {
   .puzzle-page {
-    grid-template-columns: repeat(1, minmax(250px, 1fr)); /* Adjusted to display 1 tile per row for even smaller screens */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjusted to display 1 tile per row for even smaller screens */
   }
 
   .puzzle-flex-container {
@@ -201,6 +198,5 @@ body {
     left: 50%;
     transform: translate(-50%, -50%); /* Center the image within the box */
     z-index: 1; /* Ensure the image is behind the puzzle details */
-    border-radius: 5px;
   }
 }

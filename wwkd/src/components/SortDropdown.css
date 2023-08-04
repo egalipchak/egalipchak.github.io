@@ -7,35 +7,58 @@
 .sort-section {
   display: flex;
   align-items: center;
-  margin-right: 5px; /* Reduce the margin to the right of each dropdown section */
+  margin-right: 5px;
 }
 
 .sort-dropdown label {
   color: #fff;
-  font-size: 12px; /* Reduce the font size for smaller screens */
+  font-size: 12px;
 }
 
 .sort-dropdown select {
   background-color: #222;
   color: #fff;
-  font-size: 12px; /* Reduce the font size for smaller screens */
-  padding: 3px; /* Reduce the padding for smaller screens */
+  font-size: 12px;
+  padding: 3px;
   border: 1px solid #ccc;
-  border-radius: 3px;
 }
 
-/* Add a media query for screens with max-width 400px */
-@media screen and (max-width: 400px) {
+/* Media query for screens with max-width 600px */
+@media screen and (max-width: 800px) {
+  .sort-dropdown {
+    width: 100%;
+  }
+
   .sort-section {
-    margin-right: 3px; /* Further reduce the margin for very small screens */
+    margin-right: 3px;
   }
 
   .sort-dropdown label {
-    font-size: 10px; /* Reduce the font size even more for very small screens */
+    font-size: 10px;
   }
 
   .sort-dropdown select {
-    font-size: 10px; /* Reduce the font size even more for very small screens */
-    padding: 2px; /* Reduce the padding even more for very small screens */
+    font-size: 10px;
+    padding: 2px;
+  }
+}
+
+/* Media query for screens with max-width 400px */
+@media screen and (max-width: 600px) {
+  .sort-dropdown {
+    width: calc(100% - 30px);
+  }
+
+  .sort-section {
+    margin-right: 2px;
+  }
+
+  .sort-dropdown label {
+    font-size: 8px;
+  }
+
+  .sort-dropdown select {
+    font-size: 8px;
+    padding: 1px;
   }
 }
