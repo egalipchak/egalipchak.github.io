@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 
 const GuideModal = ({ guide }) => {
   const guideModalStyle = {
-    filter: guide.block ? 'grayscale(100%)' : 'none'
+    filter: guide.isGuideActive ? 'grayscale(100%)' : 'none'
   };
 
-  if (guide.block) {
+  if (guide.isGuideActive) {
     return (
       <div className="guide-modal">
         <img src={guide.imageSrc} alt={guide.title} style={guideModalStyle} />

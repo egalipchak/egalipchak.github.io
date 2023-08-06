@@ -1,3 +1,4 @@
+/* PuzzlePage.js */
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MenuBar from './MenuBar';
@@ -55,7 +56,7 @@ const PuzzlePage = ({ images }) => {
                   <p className="puzzle-difficulty">{image.difficulty}</p>
                   <p className="puzzle-date">{image.date}</p>
                 </div>
-                <img src={image.thumbnail} alt={`Puzzle ${index + 1}`} />
+                <img className="blurred-image" src={image.thumbnail} alt={`Puzzle ${index + 1}`} />
               </div>
             </div>
           ))}

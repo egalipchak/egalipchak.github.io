@@ -1,8 +1,9 @@
 /* LandingPage.js */
-import React from 'react';
+import React, { useState } from 'react';
 import './LandingPage.css';
 import MenuBar from './MenuBar';
 import { FaEnvelope, FaDiscord, FaTwitter } from 'react-icons/fa';
+import { BarLoader } from 'react-spinners';
 import BackgroundVideoMp4 from '../assets/videos/gaze-the-ages.mp4';
 import BackgroundVideoWebm from '../assets/videos/gaze-the-ages.webm';
 import BackgroundWallpaper from '../assets/images/gaze-the-ages.jpg';
@@ -29,14 +30,44 @@ const BottomBar = () => {
 };
 
 const LandingPage = () => {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const [videoError, setVideoError] = useState(false); // Add state for video error
+
+  const handleVideoLoad = () => {
+    setVideoLoaded(true);
+  };
+
+  const handleVideoError = () => {
+    setVideoError(true);
+    setVideoLoaded(true);
+  };
+
   return (
-    <div className="landing-page">
+    <div>
       <MenuBar />
-      <video playsInline webkit-playsinline autoPlay loop muted preload="auto" poster={BackgroundWallpaper}>
-        <source src={BackgroundVideoMp4} type="video/mp4" />
-        <source src={BackgroundVideoWebm} type="video/webm" />
-      </video>
-      <div className="title">WWKD</div>
+      <div className="landing-page">
+        <video
+          playsInline
+          webkit-playsinline
+          loop
+          muted
+          poster={videoError ? BackgroundWallpaper : null} // Conditionally set poster
+          onLoadedData={handleVideoLoad}
+          onError={handleVideoError} // Handle video error
+          autoPlay
+        >
+          <source src={BackgroundVideoMp4} type="video/mp4" />
+          <source src={BackgroundVideoWebm} type="video/webm" />
+        </video>
+        {videoLoaded ? 
+          (<div className="title">WWKD</div>) : 
+          (  
+            <div className="spinner-container">
+              <BarLoader color="#fff" loading={!videoLoaded} size={15} />
+            </div>
+          )
+        };
+      </div>
       <BottomBar />
     </div>
   );

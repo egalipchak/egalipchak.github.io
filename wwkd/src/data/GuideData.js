@@ -23,7 +23,7 @@ const GuideData = [
         author: 'Kotarou',
         date: 'July 30, 2023',
         imageSrc: testImage0,
-        block: false,
+        isGuideActive: false,
         discord: 'https://discordapp.com/users/100833161851699200',
     },
     {
@@ -42,12 +42,12 @@ const GuideData = [
         author: 'Tog',
         date: 'July 30, 2023',
         imageSrc: testImage3,
-        block: false,
+        isGuideActive: false,
         discord: 'https://discordapp.com/users/269656564816674827',
         twitter: 'https://twitter.com/WeMakeBestFAB1',
     },
     {
-        id: 3,
+        id: 1230123,
         title: 'Blackjack card counting',
         content: (
         <>
@@ -77,7 +77,7 @@ const GuideData = [
         author: 'Dropmaw',
         date: 'TBD',
         imageSrc: testImage2,
-        block: true,
+        isGuideActive: true,
         twitter: 'https://twitter.com/dropmaw',
         discord: 'https://discordapp.com/users/193506197591031810',
     },

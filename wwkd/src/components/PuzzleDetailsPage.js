@@ -1,35 +1,14 @@
-import React, { useState, useEffect } from 'react';
+/* PuzzleDetailsPage.js */
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { BarLoader } from 'react-spinners';
 import './PuzzleDetailsPage.css';
 import BottomBar from './BottomBar';
 import MenuBar from './MenuBar';
 
 const PuzzleDetailsPage = ({ images }) => {
-  const [imageLoaded, setImageLoaded] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
-  const [loadingText, setLoadingText] = useState('Loading'); // Initial loading text
-
-  // Update the loading text with a delay of 500ms
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setLoadingText((prevText) => {
-        switch (prevText) {
-          case 'Loading':
-            return '  Loading .';
-          case '  Loading .':
-            return '    Loading . .';
-          case '    Loading . .':
-            return '      Loading . . .';
-          default:
-            return 'Loading';
-        }
-      });
-    }, 500);
-
-    // Clear the interval when the component unmounts or when the image is loaded
-    return () => clearInterval(interval);
-  }, []);
 
   const { id } = useParams();
   const puzzle = images.find((puzzle) => puzzle.id === parseInt(id, 10));
@@ -39,10 +18,6 @@ const PuzzleDetailsPage = ({ images }) => {
   }
 
   const handleImageLoad = () => {
-    // Once the image is loaded, update the state to indicate that the image has loaded
-    setImageLoaded(true);
-
-    // Hide the loading indicator
     setIsLoading(false);
   };
 
@@ -51,8 +26,14 @@ const PuzzleDetailsPage = ({ images }) => {
   return (
     <>
       <MenuBar />
-      {isLoading && <div className="loading">{loadingText}</div>} {/* Show loading indicator while image is loading*/}
-      <div className={`page-wrapper ${imageLoaded ? 'show' : 'hide'}`}>
+      {!isLoading && 
+        (  
+          <div className="spinner-container">
+            <BarLoader color="#fff" loading={isLoading} size={15} />
+          </div>
+        )
+      }
+      <div className={`page-wrapper ${!isLoading ? 'show' : 'hide'}`}>
         <Helmet>
           <title>{puzzle.title}</title>
           <meta property="og:title" content={puzzle.title} />
