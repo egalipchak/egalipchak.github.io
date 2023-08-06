@@ -8,6 +8,7 @@ import BottomBar from './BottomBar';
 import MenuBar from './MenuBar';
 
 const PuzzleDetailsPage = ({ images }) => {
+  const [imageLoaded, setImageLoaded] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   const { id } = useParams();
@@ -18,6 +19,10 @@ const PuzzleDetailsPage = ({ images }) => {
   }
 
   const handleImageLoad = () => {
+    // Once the image is loaded, update the state to indicate that the image has loaded
+    setImageLoaded(true);
+
+    // Hide the loading indicator
     setIsLoading(false);
   };
 
@@ -26,14 +31,12 @@ const PuzzleDetailsPage = ({ images }) => {
   return (
     <>
       <MenuBar />
-      {!isLoading && 
-        (  
-          <div className="spinner-container">
-            <BarLoader color="#fff" loading={isLoading} size={15} />
-          </div>
-        )
+      {isLoading &&
+        <div className="spinner-container-puzzlepage">
+          <BarLoader color="#fff" loading={!imageLoaded} size={15} />
+        </div>
       }
-      <div className={`page-wrapper ${!isLoading ? 'show' : 'hide'}`}>
+      <div className={`page-wrapper ${imageLoaded ? 'show' : 'hide'}`}>
         <Helmet>
           <title>{puzzle.title}</title>
           <meta property="og:title" content={puzzle.title} />
