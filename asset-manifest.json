@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7455978d.css",
-    "main.js": "/static/js/main.4367503c.js",
+    "main.css": "/static/css/main.f01ca326.css",
+    "main.js": "/static/js/main.1b919d7f.js",
     "static/media/gaze-the-ages.mp4": "/static/media/gaze-the-ages.157d76112ed1ced7b1a1.mp4",
     "static/media/gaze-the-ages.webm": "/static/media/gaze-the-ages.b49a30fe4b3a23a68c32.webm",
     "static/media/WWKD19.png": "/static/media/WWKD19.7d59f41c2977550a28ad.png",
@@ -33,13 +33,33 @@
     "static/media/test-image-1.jpg": "/static/media/test-image-1.d297c4f0ed8b945b8939.jpg",
     "static/media/whispers-of-oracle.jpg": "/static/media/whispers-of-oracle.d297c4f0ed8b945b8939.jpg",
     "static/media/WWKD18-TN.jpg": "/static/media/WWKD18-TN.5316e18684fa4646297e.jpg",
+    "static/media/arakni-banner.jpg": "/static/media/arakni-banner.3ae9a5e3dec0b4c3fff3.jpg",
+    "static/media/dromai-banner.jpg": "/static/media/dromai-banner.284c5dadde37518a9a28.jpg",
+    "static/media/iyslander-banner.jpg": "/static/media/iyslander-banner.4e229942c15d4e6eb4c7.jpg",
+    "static/media/lexi-banner.jpg": "/static/media/lexi-banner.27211d9a54c93ad86302.jpg",
+    "static/media/uzuri-banner.jpg": "/static/media/uzuri-banner.1e6c75d8234749a6b7c6.jpg",
+    "static/media/kano-banner.jpg": "/static/media/kano-banner.3b02955206c92ffe027b.jpg",
+    "static/media/fai-banner.jpg": "/static/media/fai-banner.519bf0ef2d0bea256415.jpg",
+    "static/media/levia-banner.jpg": "/static/media/levia-banner.50f9827d96f3fef15270.jpg",
+    "static/media/dash-banner.jpg": "/static/media/dash-banner.e97d974e774f69723a6e.jpg",
+    "static/media/briar-banner.jpg": "/static/media/briar-banner.2e178f57dd5f6629b0fa.jpg",
+    "static/media/vynn-banner.jpg": "/static/media/vynn-banner.993007dd6ec8f8b5c69c.jpg",
+    "static/media/riptide-banner.jpg": "/static/media/riptide-banner.0b9388712479991919e5.jpg",
+    "static/media/viserai-banner.jpg": "/static/media/viserai-banner.87e0e6d283455e101e25.jpg",
+    "static/media/rhinar-banner.jpg": "/static/media/rhinar-banner.2a0a693331571c21eaf7.jpg",
+    "static/media/bravo-banner.jpg": "/static/media/bravo-banner.b967e50174f280d6d1d3.jpg",
+    "static/media/boltyn-banner.jpg": "/static/media/boltyn-banner.cbc3db8d5fc127f16683.jpg",
+    "static/media/prism-banner.jpg": "/static/media/prism-banner.3aabe062e4166fe8a0a0.jpg",
+    "static/media/katsu-banner.jpg": "/static/media/katsu-banner.44fc9cd29eebec13c3b2.jpg",
+    "static/media/dori-banner.jpg": "/static/media/dori-banner.0c602588b254ed0f73ff.jpg",
+    "static/media/azalea-banner.jpg": "/static/media/azalea-banner.12f0142ef39a81703e3f.jpg",
     "static/media/WWKD19-TN.jpg": "/static/media/WWKD19-TN.68f5b309c91419ac49c3.jpg",
     "index.html": "/index.html",
-    "main.7455978d.css.map": "/static/css/main.7455978d.css.map",
-    "main.4367503c.js.map": "/static/js/main.4367503c.js.map"
+    "main.f01ca326.css.map": "/static/css/main.f01ca326.css.map",
+    "main.1b919d7f.js.map": "/static/js/main.1b919d7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7455978d.css",
-    "static/js/main.4367503c.js"
+    "static/css/main.f01ca326.css",
+    "static/js/main.1b919d7f.js"
   ]
 }
