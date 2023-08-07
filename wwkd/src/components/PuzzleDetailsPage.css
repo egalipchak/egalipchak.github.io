@@ -5,11 +5,18 @@ body {
 }
 
 .puzzle-details-page {
+  flex: 1;
   padding: 1rem;
   color: #fff;
-  max-width: 1400px; /* Add a max-width to prevent the content from getting too wide */
-  margin: 0 auto; /* Center the container horizontally */
+  max-width: 1400px;
+  margin: 0 auto;
   margin-top: 40px;
+}
+
+.puzzle-details-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h2 {
@@ -54,6 +61,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative; /* Add position relative */
 }
 
 .content-container {
@@ -61,6 +69,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 80px; /* Add padding to accommodate BottomBar height */
 }
 
 /* Add the show and hide classes -- specifically for showing the entire container only once image is rendered */

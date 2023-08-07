@@ -8,31 +8,26 @@ import './PuzzlePage.css';
 
 const PuzzlePage = ({ images }) => {
   const navigate = useNavigate();
-  const [sortBy, setSortBy] = useState('date'); // State to keep track of the selected sort option
-  const [sortOrder, setSortOrder] = useState('desc'); // State to keep track of the sort order
+  const [sortBy, setSortBy] = useState('date');
+  const [sortOrder, setSortOrder] = useState('desc');
 
   const redirectToPuzzleDetails = (puzzle) => {
     navigate(`/puzzles/${puzzle.id}`);
   };
 
   const handleSortChange = (event) => {
-    setSortBy(event.target.value); // Update the sortBy state when the user selects a new option
-    setSortOrder('asc'); // Reset the sort order to ascending when the sort option changes
+    setSortBy(event.target.value);
+    setSortOrder('asc');
   };
 
-  // Sort the images array based on the selected sort option and sort order
   const sortedImages = images.slice().sort((a, b) => {
     if (sortBy === 'date') {
-      // Sort by date
       return sortOrder === 'asc' ? new Date(a.date) - new Date(b.date) : new Date(b.date) - new Date(a.date);
     } else if (sortBy === 'difficulty') {
-      // Sort by difficulty
       const difficultyOrder = ['Easy', 'Medium', 'Hard'];
       if (sortOrder === 'asc') {
-        // Ascending order: Easy -> Medium -> Hard
         return difficultyOrder.indexOf(a.difficulty) - difficultyOrder.indexOf(b.difficulty);
       } else {
-        // Descending order: Hard -> Medium -> Easy
         return difficultyOrder.indexOf(b.difficulty) - difficultyOrder.indexOf(a.difficulty);
       }
     }
@@ -62,7 +57,9 @@ const PuzzlePage = ({ images }) => {
           ))}
         </div>
       </div>
-      <BottomBar />
+      <div className="footer">
+        <BottomBar />
+      </div>
     </div>
   );
 };

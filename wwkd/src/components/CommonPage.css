@@ -95,7 +95,6 @@
 }
 
 /* Media Query for smaller screens (max-width: 600px) */
-/* Add a media query for smaller screens (max-width: 600px) */
 @media screen and (max-width: 600px) {
   .content h1 {
     text-align: center;
@@ -113,10 +112,6 @@
     max-width: 350px; /* Set a maximum width for GuideModal on smaller screens */
     height: 200px; /* Remove fixed height to allow modal to adjust based on content */
     margin: 10px auto; /* Adjust margin to create spacing between modals */
-  }
-
-  /* Adjust the modal box-shadow and border radius to create a card-like effect */
-  .guide-modal {
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
   }
 

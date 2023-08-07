@@ -19,26 +19,23 @@ const PuzzleDetailsPage = ({ images }) => {
   }
 
   const handleImageLoad = () => {
-    // Once the image is loaded, update the state to indicate that the image has loaded
     setImageLoaded(true);
-
-    // Hide the loading indicator
     setIsLoading(false);
   };
 
   const ogImageUrl = puzzle.src;
 
   return (
-    <>
+    <div className="puzzle-details-container">
       <MenuBar />
-      {isLoading &&
+      {isLoading && (
         <div className="spinner-container-puzzlepage">
           <BarLoader color="#fff" loading={!imageLoaded} size={15} />
         </div>
-      }
-      <div className={`page-wrapper ${imageLoaded ? 'show' : 'hide'}`}>
+      )}
+      <div className={`puzzle-details-page ${imageLoaded ? 'show' : 'hide'}`}>
         <Helmet>
-          <title>{puzzle.title}</title>
+        <title>{puzzle.title}</title>
           <meta property="og:title" content={puzzle.title} />
           <meta property="og:description" content={`Difficulty: ${puzzle.difficulty}`} />
           <meta property="og:image" content={ogImageUrl} />
@@ -57,27 +54,23 @@ const PuzzleDetailsPage = ({ images }) => {
           {/* General SEO meta tags */}
           <meta name="description" content={`Difficulty: ${puzzle.difficulty} - ${puzzle.description}`} />
           <meta name="image" content={ogImageUrl} />
-          <link rel="canonical" href={`https://www.whatwouldkanodo.com/#/puzzles/${puzzle.id}`} />
-        </Helmet>
+          <link rel="canonical" href={`https://www.whatwouldkanodo.com/#/puzzles/${puzzle.id}`} />        </Helmet>
         <div className="content-container">
-          {/* The "show" and "hide" classes will control the visibility of the content */}
-          <div className="puzzle-details-page">
-            <h2>{puzzle.title}</h2>
-            <img src={puzzle.src} alt={`Puzzle`} onLoad={handleImageLoad} />
-            <p className="text-outline">Difficulty: {puzzle.difficulty}</p>
-            <p className="text-outline">Description: {puzzle.description}</p>
-            <div className="solution-link-container">
-              {puzzle.url !== "" && (
-                <a href={puzzle.url} target="_blank" rel="noopener noreferrer" className="solution-link">
-                  ~~Solution Discussion Link~~
-                </a>
-              )}
-            </div>
+          <h2>{puzzle.title}</h2>
+          <img src={puzzle.src} alt={`Puzzle`} onLoad={handleImageLoad} />
+          <p className="text-outline">Difficulty: {puzzle.difficulty}</p>
+          <p className="text-outline">Description: {puzzle.description}</p>
+          <div className="solution-link-container">
+            {puzzle.url !== "" && (
+              <a href={puzzle.url} target="_blank" rel="noopener noreferrer" className="solution-link">
+                ~~Solution Discussion Link~~
+              </a>
+            )}
           </div>
         </div>
-        <BottomBar />
       </div>
-    </>
+      <BottomBar />
+    </div>
   );
 };
 

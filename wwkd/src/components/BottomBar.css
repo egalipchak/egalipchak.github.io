@@ -1,6 +1,6 @@
 /* BottomBar.css */
 .bottom-bar {
-  bottom: -120px;
+  bottom: 0;
   width: 100%;
   background-color: #000;
   transition: bottom 0.3s ease;
