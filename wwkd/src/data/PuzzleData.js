@@ -243,7 +243,7 @@ const PuzzleData = [
             <p>- Can you find the damage to take down your opponent?</p>
         </>
         ),
-        url: '',
+        url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15kr9lu/what_would_kano_do_wwkd_20/',
     },
 ];
 
