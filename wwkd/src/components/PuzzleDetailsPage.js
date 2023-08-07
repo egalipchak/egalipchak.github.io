@@ -69,7 +69,7 @@ const PuzzleDetailsPage = ({ images }) => {
           </div>
         </div>
       </div>
-      <BottomBar />
+      {imageLoaded && <BottomBar />}
     </div>
   );
 };
