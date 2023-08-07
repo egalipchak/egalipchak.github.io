@@ -232,7 +232,7 @@ const PuzzleData = [
         src: require('../assets/images/mediumPuzzles/WWKD20.jpg'),
         thumbnail: require('../assets/images/mediumPuzzles/WWKD20-TN.JPG'),
         date: 'August 7, 2023',
-        difficulty: "Medium",
+        difficulty: "Easy",
         isNew: true,
         title: 'Cindering premonition',
         description: (
