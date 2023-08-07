@@ -194,7 +194,7 @@ const PuzzleData = [
         thumbnail: require('../assets/images/mediumPuzzles/WWKD18-TN.jpg'),
         date: 'July 31, 2023',
         difficulty: "Medium",
-        isNew: true,
+        isNew: false,
         title: 'Unexpected',
         description: (
         <>
@@ -226,6 +226,24 @@ const PuzzleData = [
         </>
         ),
         url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15ibs23/what_would_kano_do_wwkd_19/',
+    },
+    {
+        id: 13,
+        src: require('../assets/images/mediumPuzzles/WWKD20.png'),
+        thumbnail: require('../assets/images/mediumPuzzles/WWKD20-TN.JPG'),
+        date: 'August 7, 2023',
+        difficulty: "Medium",
+        isNew: true,
+        title: 'Cindering premonition',
+        description: (
+        <>
+            <p>- Your opponent is tapped out with zero resources and swinging for lethal</p>
+            <p>- You've played Cindering Foresight from arsenal, bottomed a blue, and left Quickening on top and Singe below it</p>
+            <p>- Life totals are in the top right</p>
+            <p>- Can you find the damage to take down your opponent?</p>
+        </>
+        ),
+        url: '',
     },
 ];
 

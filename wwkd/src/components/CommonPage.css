@@ -3,10 +3,13 @@
   padding-top: 40px;
   width: 100%;
   max-width: 800px;
-  margin: 20 auto;
+  margin: 20px auto 0;
   min-height: calc(100vh - 40px);
   color: #fff;
   background-color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
 }
 
 /* Add new CSS styles for GuidesPage */
@@ -14,15 +17,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: -10px;
-  margin-right: -10px;
 }
 
 /* Add new CSS styles for GuideModal */
 .guide-modal {
   width: 251px; /* Set the width of each GuideModal to one-third of the available space minus the gap */
   height: 200px; /* Set a fixed height for the GuideModal container */
-  margin: 10px; /* Adjust margin to create spacing between modals */
+  margin: 10px auto; /* Adjust margin to create spacing between modals */
   border: 1px solid #ccc; /* Add a border around each modal */
   background-color: #303030; /* Set the background color for the modal */
   text-decoration: none; /* Remove underline from links inside GuideModal */
@@ -101,6 +102,7 @@
   }
 
   .guide-list {
+    margin: 0;
     display: flex;
     flex-direction: column; /* Display GuideModals vertically */
     align-items: center; /* Center GuideModals horizontally */
@@ -110,7 +112,7 @@
     width: calc(100% - 20px); /* GuideModal takes up full width with spacing */
     max-width: 350px; /* Set a maximum width for GuideModal on smaller screens */
     height: 200px; /* Remove fixed height to allow modal to adjust based on content */
-    margin: 10px 0; /* Adjust margin to create spacing between modals */
+    margin: 10px auto; /* Adjust margin to create spacing between modals */
   }
 
   /* Adjust the modal box-shadow and border radius to create a card-like effect */

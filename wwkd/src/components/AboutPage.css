@@ -2,7 +2,6 @@
 
 .content {
   padding-top: 40px;
-  padding-left: 20px; /* Add left padding */
   width: 90%; /* Take full available width */
   max-width: 800px; /* Set a maximum width for content */
   margin: 0 auto; /* Center the content horizontally and add space on both sides */
