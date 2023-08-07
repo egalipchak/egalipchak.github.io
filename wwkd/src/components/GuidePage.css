@@ -1,29 +1,23 @@
 /* GuidePage.css */
-.content {
-  padding: 0px;
-  background-color: transparent;
-}
-
 .guide-page {
-  /* Set the background image and make it fixed */
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .guide-container {
-  padding: 20px; /* Add padding to create space between the content and the edge of the screen */
-  width: 100%; /* Set the width to 100% to fill the screen horizontally */
-  max-width: 600px; /* Set a maximum width for the content to ensure it fits within the screen */
-  margin: 0 auto; /* Center the content horizontally */
-  margin-top: 20px; /* Add a margin to the top to push it below the MenuBar */
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
   background-color: #edecff;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .guide-header {
   display: flex;
-  flex-direction: column; /* Align the items in a column */
-  align-items: flex-start; /* Align items to the left */
+  flex-direction: column;
+  align-items: flex-start;
   margin-bottom: 20px;
 }
 
@@ -48,13 +42,13 @@
 .guide-author-links {
   display: flex;
   justify-content: flex-end;
-  align-items: center; /* Align the social links vertically with the author text */
+  align-items: center;
   font-size: 18px;
 }
 
 .guide-author {
-  color: #000000; /* Black color for the author text */
-  margin-right: 10px; /* Add some spacing between the author text and social links */
+  color: #000000;
+  margin-right: 10px;
   font-size: 18px;
 }
 
@@ -65,7 +59,7 @@
 }
 
 .guide-author-links a:not(:last-child) {
-  margin-right: 6px; /* Add margin between the icons */
+  margin-right: 6px;
 }
 
 .guide-author-links a svg {
@@ -85,11 +79,6 @@
   justify-content: center;
 }
 
-/* Adjust the spacing between the content and the BottomBar */
-.content {
-  margin-bottom: 40px;
-}
-
 /* BottomBar that is specifically just for this page */
 .bottom-bar-guidepage {
   width: 100%;
@@ -103,18 +92,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem; /* Add spacing between the legal text and icons */
+  margin-top: 1rem;
 }
 
 .social-icons-guidepage a {
   color: #fff;
   font-size: 1.5rem;
-  margin: 0 0.5rem; /* Add spacing between the icons */
+  margin: 0 0.5rem;
   text-decoration: none;
 }
 
 .social-icons-guidepage a:hover {
-  color: #7f84b5; /* Change the color to blue on hover */
+  color: #7f84b5;
 }
 
 .legal-text-guidepage {
@@ -132,10 +121,25 @@
 }
 
 /* Add media queries for smaller screens */
+@media screen and (max-width: 900px) {
+  .guide-container {
+    max-width: 85%;
+  }
+
+  /* Center the guide-header and guide-body text on smaller screens */
+  .guide-header {
+    text-align: left;
+  }
+
+  .guide-body {
+    text-align: left;
+  }
+}
+
+/* Add media queries for smaller screens */
 @media screen and (max-width: 600px) {
   .guide-container {
-    max-width: 90%; /* Set a smaller max-width for smaller screens */
-    margin-left: -9px; /* Center the guide-container horizontally on smaller screens */
+    max-width: 85%;
   }
 
   /* Center the guide-header and guide-body text on smaller screens */
