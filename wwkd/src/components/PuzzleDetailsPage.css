@@ -70,6 +70,25 @@ img {
   flex-direction: column;
   align-items: center;
   padding-bottom: 80px; /* Add padding to accommodate BottomBar height */
+  border: 2px solid rgb(85, 61, 125); /* Set the border properties */
+  padding: 15px;
+  background-color: #181818;
+  animation: glow 10s infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0px 0px 80px rgba(255, 0, 255, 0.4);
+  }
+  25% {
+    box-shadow: 0px 0px 80px rgba(102, 0, 255, 0.4);
+  }
+  50% {
+    box-shadow: 0px 0px 80px rgba(0, 0, 255, 0.4);
+  }
+  75% {
+    box-shadow: 0px 0px 80px rgba(61, 0, 174, 0.4);
+  }
 }
 
 /* Add the show and hide classes -- specifically for showing the entire container only once image is rendered */
