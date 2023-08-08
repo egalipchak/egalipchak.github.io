@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.33e81927.css",
-    "main.js": "/static/js/main.0922b744.js",
+    "main.css": "/static/css/main.bc9deaa8.css",
+    "main.js": "/static/js/main.ce6417f5.js",
     "static/media/gaze-the-ages.mp4": "/static/media/gaze-the-ages.157d76112ed1ced7b1a1.mp4",
     "static/media/gaze-the-ages.webm": "/static/media/gaze-the-ages.b49a30fe4b3a23a68c32.webm",
     "static/media/WWKD19.png": "/static/media/WWKD19.7d59f41c2977550a28ad.png",
@@ -57,11 +57,11 @@
     "static/media/WWKD20-TN.JPG": "/static/media/WWKD20-TN.229486a276d0407c2a63.JPG",
     "static/media/WWKD19-TN.jpg": "/static/media/WWKD19-TN.68f5b309c91419ac49c3.jpg",
     "index.html": "/index.html",
-    "main.33e81927.css.map": "/static/css/main.33e81927.css.map",
-    "main.0922b744.js.map": "/static/js/main.0922b744.js.map"
+    "main.bc9deaa8.css.map": "/static/css/main.bc9deaa8.css.map",
+    "main.ce6417f5.js.map": "/static/js/main.ce6417f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.33e81927.css",
-    "static/js/main.0922b744.js"
+    "static/css/main.bc9deaa8.css",
+    "static/js/main.ce6417f5.js"
   ]
 }
