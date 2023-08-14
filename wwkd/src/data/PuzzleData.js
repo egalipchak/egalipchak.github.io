@@ -261,7 +261,7 @@ const PuzzleData = [
             <p>- How much damage are you able to goldfish?</p>
         </>
         ),
-        url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15kr9lu/what_would_kano_do_wwkd_20/',
+        url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15r0oc0/what_would_kano_do_wwkd_21/',
     },
 ];
 
