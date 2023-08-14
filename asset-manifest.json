@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.249433a0.css",
-    "main.js": "/static/js/main.7807bc29.js",
+    "main.js": "/static/js/main.f1a8de9d.js",
     "static/media/gaze-the-ages.mp4": "/static/media/gaze-the-ages.157d76112ed1ced7b1a1.mp4",
     "static/media/gaze-the-ages.webm": "/static/media/gaze-the-ages.b49a30fe4b3a23a68c32.webm",
     "static/media/WWKD19.png": "/static/media/WWKD19.7d59f41c2977550a28ad.png",
@@ -10,6 +10,7 @@
     "static/media/gaze-the-ages.jpg": "/static/media/gaze-the-ages.70018264632756556733.jpg",
     "static/media/WWKD8.jpg": "/static/media/WWKD8.a01a81280a595408e234.jpg",
     "static/media/test-image.png": "/static/media/test-image.1755490806b75f08fe01.png",
+    "static/media/WWKD21.jpg": "/static/media/WWKD21.23205ca1a63ab1d04e24.jpg",
     "static/media/WWKDGoldfish1.jpg": "/static/media/WWKDGoldfish1.4e28b5a4b10259e1fdae.jpg",
     "static/media/WWKD12.jpg": "/static/media/WWKD12.3f3339772a4283c55afe.jpg",
     "static/media/WWKD4.jpg": "/static/media/WWKD4.ad64a4c3ffe902740fea.jpg",
@@ -53,15 +54,16 @@
     "static/media/katsu-banner.jpg": "/static/media/katsu-banner.44fc9cd29eebec13c3b2.jpg",
     "static/media/dori-banner.jpg": "/static/media/dori-banner.0c602588b254ed0f73ff.jpg",
     "static/media/azalea-banner.jpg": "/static/media/azalea-banner.12f0142ef39a81703e3f.jpg",
+    "static/media/WWKD21-TN.jpg": "/static/media/WWKD21-TN.393109a471a785d37068.jpg",
     "static/media/kano-adult.jpg": "/static/media/kano-adult.3d4cf22e2bdf8d754d5d.jpg",
     "static/media/WWKD20-TN.JPG": "/static/media/WWKD20-TN.229486a276d0407c2a63.JPG",
     "static/media/WWKD19-TN.jpg": "/static/media/WWKD19-TN.68f5b309c91419ac49c3.jpg",
     "index.html": "/index.html",
     "main.249433a0.css.map": "/static/css/main.249433a0.css.map",
-    "main.7807bc29.js.map": "/static/js/main.7807bc29.js.map"
+    "main.f1a8de9d.js.map": "/static/js/main.f1a8de9d.js.map"
   },
   "entrypoints": [
     "static/css/main.249433a0.css",
-    "static/js/main.7807bc29.js"
+    "static/js/main.f1a8de9d.js"
   ]
 }
