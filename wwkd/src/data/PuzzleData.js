@@ -247,7 +247,7 @@ const PuzzleData = [
     },
     {
         id: 14,
-        src: require('../assets/images/mediumPuzzles/WWKD21.png'),
+        src: require('../assets/images/mediumPuzzles/WWKD21.jpg'),
         thumbnail: require('../assets/images/mediumPuzzles/WWKD21-TN.jpg'),
         date: 'August 14, 2023',
         difficulty: "Medium",
