@@ -214,7 +214,7 @@ const PuzzleData = [
         thumbnail: require('../assets/images/easyPuzzles/WWKD19-TN.jpg'),
         date: 'August 4, 2023',
         difficulty: "Easy",
-        isNew: true,
+        isNew: false,
         title: 'Flip of the hat',
         description: (
         <>
@@ -241,6 +241,24 @@ const PuzzleData = [
             <p>- You've played Cindering Foresight from arsenal, bottomed a blue, and left Quickening on top and Singe below it</p>
             <p>- Life totals are in the top right</p>
             <p>- Can you find the damage to take down your opponent?</p>
+        </>
+        ),
+        url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15kr9lu/what_would_kano_do_wwkd_20/',
+    },
+    {
+        id: 14,
+        src: require('../assets/images/mediumPuzzles/WWKD21.png'),
+        thumbnail: require('../assets/images/mediumPuzzles/WWKD21-TN.jpg'),
+        date: 'August 14, 2023',
+        difficulty: "Medium",
+        isNew: true,
+        title: 'Stacked lightning',
+        description: (
+        <>
+            <p>- On your turn a blue reverb was pitched to activate Kano, and banished a Chain Lightning</p>
+            <p>- The top of your deck is an aether dart followed by snapback</p>
+            <p>- Your hand is displayed at the bottom, with Blazing in arsenal</p>
+            <p>- How much damage are you able to goldfish?</p>
         </>
         ),
         url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15kr9lu/what_would_kano_do_wwkd_20/',
