@@ -299,7 +299,7 @@ const PuzzleData = [
             {' '}for the idea!</strong></p>
         </>
         ),
-        url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15r0oc0/what_would_kano_do_wwkd_21/',
+        url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15xcenr/what_would_kano_do_wwkd_22/',
     },
 ];
 
