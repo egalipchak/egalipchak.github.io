@@ -54,7 +54,12 @@ const PuzzleData = [
             <p>- You're being presented lethal. Find a way to win!</p>
             <p>- You know your opponent is running Arcane Barrier 2, and because they fused their attack you know they only have two resources to play with.</p>
             <p>- Assume they'll use them as efficiently as possible.</p>
-            <p>- Shoutout to Zejjs#3210 from discord! Answer exists on global discord by searching, “in: wizard-kano WWKD - 6”</p>
+            <br></br>
+            <p><strong>Shout out to {' '}
+            <a href="https://discordapp.com/users/691941929356886018" target="_blank" rel="noopener noreferrer">
+                Zejjs
+            </a> 
+            {' '}for creating this puzzle! Answer exists on global discord by searching, “in: wizard-kano WWKD - 6”</strong></p>
         </>
         ),
         url: "",
@@ -222,7 +227,12 @@ const PuzzleData = [
             <p>- You Kano twice, revealing a Tome of Aetherwind and a blue Prognosticate.</p>
             <p>- You send your wildfire from arsenal, and follow up with prognosticate to reveal your last Blazing Aether!</p>
             <p>- How can you guarantee your victory?</p>
-            <p>- Shoutout to TheTurtleMaturin on Discord for creating this puzzle!</p>
+            <br></br>
+            <p><strong>Shout out to {' '}
+            <a href="https://discordapp.com/users/613539148246155303" target="_blank" rel="noopener noreferrer">
+                TheTurtleMaturin
+            </a> 
+            {' '}for creating this puzzle!</strong></p>
         </>
         ),
         url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15ibs23/what_would_kano_do_wwkd_19/',
@@ -233,7 +243,7 @@ const PuzzleData = [
         thumbnail: require('../assets/images/mediumPuzzles/WWKD20-TN.JPG'),
         date: 'August 7, 2023',
         difficulty: "Easy",
-        isNew: true,
+        isNew: false,
         title: 'Cindering premonition',
         description: (
         <>
@@ -259,6 +269,34 @@ const PuzzleData = [
             <p>- The top of your deck is an aether dart followed by snapback</p>
             <p>- Your hand is displayed at the bottom, with Blazing in arsenal</p>
             <p>- How much damage are you able to goldfish?</p>
+        </>
+        ),
+        url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15r0oc0/what_would_kano_do_wwkd_21/',
+    },
+    {
+        id: 15,
+        src: require('../assets/images/hardPuzzles/WWKD22.jpeg'),
+        thumbnail: require('../assets/images/hardPuzzles/WWKD22-TN.jpeg'),
+        date: 'August 21, 2023',
+        difficulty: "Hard",
+        isNew: true,
+        title: 'Harnessing impetus',
+        description: (
+        <>
+            <p>- Lexi starts her turn playing Codex of Inertia from arsenal, you now have priority before codex resolves</p>
+            <p>- Lexi has 1 AB, 1 arsenal card, 4 cards in hand</p>
+            <p>- Your hand is displayed, and you know Blazing is on top of your deck from a previous opt</p>
+            <p>- Are you able to deal at least 18 damage on Lexi's turn?</p>
+            <br></br>
+            <p><strong>Shout out to {' '}
+            <a href="https://discordapp.com/users/269656564816674827" target="_blank" rel="noopener noreferrer">
+                Tog
+            </a> 
+            {' '}and{' '}
+            <a href="https://discordapp.com/users/735008895025807371" target="_blank" rel="noopener noreferrer">
+                YodasUncle
+            </a> 
+            {' '}for the idea!</strong></p>
         </>
         ),
         url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15r0oc0/what_would_kano_do_wwkd_21/',
