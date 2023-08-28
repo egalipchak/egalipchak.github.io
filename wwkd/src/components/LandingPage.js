@@ -60,7 +60,13 @@ const LandingPage = () => {
           <source src={BackgroundVideoWebm} type="video/webm" />
         </video>
         {videoLoaded ? 
-          (<div className="title">WWKD</div>) : 
+          (<div className="title">
+            <div className="stack" style={{ "--stacks": 3 }}>
+              <span style={{ "--index": 0 }}>WWKD</span>
+              <span style={{ "--index": 1 }}>WWKD</span>
+              <span style={{ "--index": 2 }}>WWKD</span>
+            </div>
+          </div>) : 
           (  
             <div className="spinner-container">
               <BarLoader color="#fff" loading={!videoLoaded} size={15} />
