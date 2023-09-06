@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.42789225.css",
-    "main.js": "/static/js/main.fc4ddacd.js",
+    "main.js": "/static/js/main.2cd8ec95.js",
     "static/media/gaze-the-ages.mp4": "/static/media/gaze-the-ages.157d76112ed1ced7b1a1.mp4",
     "static/media/gaze-the-ages.webm": "/static/media/gaze-the-ages.b49a30fe4b3a23a68c32.webm",
     "static/media/WWKD19.png": "/static/media/WWKD19.7d59f41c2977550a28ad.png",
@@ -21,6 +21,7 @@
     "static/media/WWKD11.jpg": "/static/media/WWKD11.cbae526e9ecd3ef3a597.jpg",
     "static/media/WWKD13.jpg": "/static/media/WWKD13.f4ce2002a7a0487d7f59.jpg",
     "static/media/WWKD18.jpg": "/static/media/WWKD18.7b2f7812bbf374aa8150.jpg",
+    "static/media/WWKD23.jpg": "/static/media/WWKD23.5d3fd6889bece6c9e594.jpg",
     "static/media/cru-background.jpg": "/static/media/cru-background.b1e84ecad3f066b4e69a.jpg",
     "static/media/WWKD7-TN.jpg": "/static/media/WWKD7-TN.c5c3b7ad4ef7c28ce80d.jpg",
     "static/media/WWKDGoldfish1-TN.jpg": "/static/media/WWKDGoldfish1-TN.e946d269712a2209986f.jpg",
@@ -34,6 +35,7 @@
     "static/media/WWKD12-TN.jpg": "/static/media/WWKD12-TN.f3f2905de33daff6b945.jpg",
     "static/media/test-image-1.jpg": "/static/media/test-image-1.d297c4f0ed8b945b8939.jpg",
     "static/media/whispers-of-oracle.jpg": "/static/media/whispers-of-oracle.d297c4f0ed8b945b8939.jpg",
+    "static/media/WWKD23-TN.JPG": "/static/media/WWKD23-TN.fd79d47fb4150addec30.JPG",
     "static/media/WWKD18-TN.jpg": "/static/media/WWKD18-TN.5316e18684fa4646297e.jpg",
     "static/media/arakni-banner.jpg": "/static/media/arakni-banner.3ae9a5e3dec0b4c3fff3.jpg",
     "static/media/dromai-banner.jpg": "/static/media/dromai-banner.284c5dadde37518a9a28.jpg",
@@ -62,10 +64,10 @@
     "static/media/WWKD19-TN.jpg": "/static/media/WWKD19-TN.68f5b309c91419ac49c3.jpg",
     "index.html": "/index.html",
     "main.42789225.css.map": "/static/css/main.42789225.css.map",
-    "main.fc4ddacd.js.map": "/static/js/main.fc4ddacd.js.map"
+    "main.2cd8ec95.js.map": "/static/js/main.2cd8ec95.js.map"
   },
   "entrypoints": [
     "static/css/main.42789225.css",
-    "static/js/main.fc4ddacd.js"
+    "static/js/main.2cd8ec95.js"
   ]
 }
