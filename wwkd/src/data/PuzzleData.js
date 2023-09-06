@@ -261,7 +261,7 @@ const PuzzleData = [
         thumbnail: require('../assets/images/mediumPuzzles/WWKD21-TN.jpg'),
         date: 'August 14, 2023',
         difficulty: "Medium",
-        isNew: true,
+        isNew: false,
         title: 'Stacked lightning',
         description: (
         <>
@@ -279,7 +279,7 @@ const PuzzleData = [
         thumbnail: require('../assets/images/hardPuzzles/WWKD22-TN.jpeg'),
         date: 'August 21, 2023',
         difficulty: "Hard",
-        isNew: true,
+        isNew: false,
         title: 'Harnessing impetus',
         description: (
         <>
@@ -300,6 +300,24 @@ const PuzzleData = [
         </>
         ),
         url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/15xcenr/what_would_kano_do_wwkd_22/',
+    },
+    {
+        id: 16,
+        src: require('../assets/images/mediumPuzzles/WWKD23.jpg'),
+        thumbnail: require('../assets/images/mediumPuzzles/WWKD23-TN.JPG'),
+        date: 'September 6, 2023',
+        difficulty: "Medium",
+        isNew: true,
+        title: 'Royalty',
+        description: (
+        <>
+            <p>- You are royal Kano, and it is your turn. Craft the best turn you possibly can given your hand</p>
+            <p>- The stack displayed on the right are the cards on top of your deck. Tome of Aetherwind is the top-most card of your deck</p>
+            <p>- Your hand is displayed below, with Tome of Fyendal in arsenal</p>
+            <p>- NOTE: Due to the nature of how much royal kano draws, we need to know the cards on our stack. However approach the puzzle as realistically as you would like, as it's possible to complete if you hide the stack</p>
+        </>
+        ),
+        url: 'https://www.reddit.com/r/FleshandBloodTCG/comments/16bqs8e/what_would_kano_do_wwkd_23/',
     },
 ];
 
