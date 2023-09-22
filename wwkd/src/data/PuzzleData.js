@@ -307,7 +307,7 @@ const PuzzleData = [
         thumbnail: require('../assets/images/mediumPuzzles/WWKD23-TN.JPG'),
         date: 'September 6, 2023',
         difficulty: "Medium",
-        isNew: true,
+        isNew: false,
         title: 'Royalty',
         description: (
         <>
