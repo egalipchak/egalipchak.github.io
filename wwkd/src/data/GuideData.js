@@ -25,6 +25,14 @@ import vynnBanner from '../assets/images/banners/vynn-banner.jpg';
 import leviBanner from '../assets/images/banners/levia-banner.jpg';
 import rhinarBanner from '../assets/images/banners/rhinar-banner.jpg';
 
+import countingGuide0 from '../assets/images/guides/00.JPG';
+import countingGuide1 from '../assets/images/guides/11.JPG';
+import countingGuide2 from '../assets/images/guides/22.JPG';
+import countingGuide3 from '../assets/images/guides/33.JPG';
+import countingGuide4 from '../assets/images/guides/44.JPG';
+import countingGuide5 from '../assets/images/guides/55.JPG';
+import countingGuide6 from '../assets/images/guides/66.JPG';
+
 /*
 * Static data for guides
 */
@@ -301,33 +309,63 @@ const GuideData = [
         title: 'Blackjack card counting',
         content: (
         <>
-            <p>The technique is similar to the version of counting cards for blackjack, but even easier since we're usually dealing with around 60 cards. The benefit to this technique is to give you a better idea of whether there is a useful card on top of your deck, or just a blue, all through basic statistics. All that's required from the technique is keeping track of one number.</p>
+            <p>The technique is similar to the version of counting cards for blackjack, but even easier since we're usually dealing with around 60 cards. The benefit to this technique is to give you a better idea of whether there is a useful card on top of your deck, or just a blue, all through basic math. All that's required from the technique is keeping track of one number, and either adding or subtracting 1 from it.</p>
             <p>Let's walk through a realistic example and assume you have 30 blue cards in your deck, and the other 30 cards are things you would like to see on top of your deck which would be a mixture of reds and yellows. </p>
-            <p>First we want to assign all of our blue cards a +1, and all the other cards which are reds and yellows a -1. If we add up all of those +1's and -1's, we get 0. This zero is very important to remember, because it's going to be the starting point of our deck, and we will simply be incrementing this number either up or down depending on what we draw.</p>
-            <p>So lets start with an example of an opening hand where we draw four blues which is equivilant to +4. All we do is just add 4 to our 0, and keep track of 4.</p>
-            <p>Similarly if our opening hand were to be 4 reds, then that's -4, so we just subtract 4 from our 0, which would be -4.</p>
-            <p>Both of these numbers above represent knowledge of what might be on top of your deck. If the number that you're keeping track of is positive, then there is a higher likelyhood that the top card of your deck is going to be a red/yellow. Oppositely if the number youre tracking is negative then the likelyhood of there being a blue on top of your deck is higher. All you have to do at this point is simply update your number whenever you draw a card into your hand, banish a card off the top of your deck using Kano's ability, or OPT and decide to bottom a card. As you track this singular number, ir should give you better odds and likelyhood on what you may see on top of your deck.</p>
+            <img
+                src={countingGuide0}
+                style={{ maxWidth: '100%', margin: '1rem 0' }}
+            />
+            <p>First we want to assign all of our blue cards a +1, and all the other cards which are reds and yellows a -1. Since we have 30 blues and 30 red's/yellow's, if we add up all of those +1's and -1's, we get 0. Keeping track of this total is very important, because it's going to be the starting point of our deck, and we will simply be incrementing this number either up or down depending on what we draw.</p>
+            <p>So lets start with an example of an opening hand where we draw four blues which is equivilant to +4, since each blue is worth 1. All we do is just add 4 to our 0, and keep track of 4.</p>
+            <img
+                src={countingGuide1}
+                style={{ maxWidth: '100%', margin: '1rem 0' }}
+            />
+            <p>Similarly and for example, if our opening hand were to be 4 reds, then that's worth -4. So we just subtract 4 from our 0, which would be -4.</p>
+            <p>Both of these numbers above represent knowledge of what might be on top of your deck. If the number that you're keeping track of is positive, then there is a higher likelyhood that the top card of your deck is going to be a red/yellow. Oppositely if the number youre tracking is negative then the likelyhood of there being a blue on top of your deck is higher. All you have to do at this point is simply update your number whenever you draw a card into your hand, banish a card off the top of your deck using Kano's ability, or Opt and decide to bottom a card. As you track this singular number, it should give you better odds and likelyhood on what you may see on top of your deck. The more-leaning you are into either positive or negative, will help you work around establishing certain plays with higher chances of success.</p>
             <p>Lets hammer in one more example just so we're absolutely clear on how it works:</p>
             <br></br>
             <p>Turn 1:</p>
             <p>Draw 4 cards, blue blue blue blue. Count is 4, indicates red/yellow is more likely on top.</p>
-            <p>Action phase: Kano, banishing red. Count is updated to 3. Kano, banishing red. Count is updated to 2.</p>
-            <p>End phase: Draw 4 cards, red red red red. Count is updated to -2, indicates blues are more likely on top.</p>
+            <p>Action phase: Kano, banishing red. Count is updated to 3. Kano, banishing red. Count is updated to 2. You now proceed to using your remaining blues to use those reds.</p>
+            <img
+                src={countingGuide2}
+                style={{ maxWidth: '100%', margin: '1rem 0' }}
+            />
+            <p>End phase: Draw 4 cards, red yellow red red. Count is updated to -2, indicates blues are more likely on top.</p>
+            <img
+                src={countingGuide3}
+                style={{ maxWidth: '100%', margin: '1rem 0' }}
+            />
             <br></br>
             <p>Turn 2:</p>
-            <p>Action phase: Play red card, pitch 3 reds. Count is still -2.</p>
+            <p>Action phase: Play red card, pitching a yellow and red, arsenaling one card. Count is still -2.</p>
+            <img
+                src={countingGuide4}
+                style={{ maxWidth: '100%', margin: '1rem 0' }}
+            />
             <p>End phase: Draw 4 cards, red blue blue blue. Count is updated to 0, indicates equal chance of red/yellow/blue on top.</p>
+            <img
+                src={countingGuide5}
+                style={{ maxWidth: '100%', margin: '1rem 0' }}
+            />
             <br></br>
-            <p>Now when is this actually useful?</p>
-            <p>Well lets take for example that you Kano and banish a tome off the top of your deck. At this point your faced with a decision of whether you Kano more before your use the tome, or should use the tome right then and there to preferably draw blues? Well you can use your count to determine what's better to do at that moment, as having access to that know of knowledge will give you a better likelyhood of drawing blues with your tome instead of reds/yellows.</p>
-            <p>It can also help you determine whether or not your ragamuffin's is likely to fail or succeed. Additionally also helps in many other instances of just make decisions of whether or not to "go off" on your opponents turn, especially in the case where you have a heavy blue hand and your count is decently in the positive indicating reds on top of your deck. The useage of counting spirals into just about all other deicions during a game. It's a technique I prefer to use as it helps with making deicions based on simple math rather than feeling. </p>
+            <p>Now when is this actually useful, and why should you even bother?</p>
+            <p>There are a large handful of situations where this is useful for playing Kano. My favorite is capitalizing on the use of tomes, since we run so many. Take for example you're in the situation below:</p>
+            <img
+                src={countingGuide6}
+                style={{ maxWidth: '100%', margin: '1rem 0' }}
+            />
+            <p>You Kano and banish a tome off the top of your deck, and you still have a handful of blues. At this point your faced with a decision of whether you Kano more before you use the tome, or use the tome right then and there to preferably draw blues? Well you can use your count to determine what's better to do at that moment, as having access to that knowledge will give you a better likelyhood of drawing blues with your tome instead of reds/yellows, all the while attempting to capitalize on banishing reds instead.</p>
+            <p>I use counting for just about everything in Kano, as our method of damage output can depend on whats on top of our deck. It can also help you determine whether or not your ragamuffin's is likely to fail or succeed. Helps in other instances when making decisions of whether or not to "go off" on your opponents turn, especially in the case where you have a heavy blue hand and your count is decently in the positive indicating reds on top of your deck. The useage of counting spirals into just about all other deicions during a game. It's a technique I prefer to use as it helps with making deicions based on simple math rather than gut feeling.</p>
+            <p>I hope it helps you too!</p>
             <p></p>
         </>
         ),
         author: 'Dropmaw',
-        date: 'TBD',
+        date: 'October 31, 2023',
         imageSrc: testImage2,
-        isGuideDisabled: true,
+        isGuideDisabled: false,
         twitter: 'https://twitter.com/dropmaw',
         discord: 'https://discordapp.com/users/193506197591031810',
     },
